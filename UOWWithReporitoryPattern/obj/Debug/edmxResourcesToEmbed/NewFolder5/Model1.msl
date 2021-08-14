@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="neptuneModel2StoreContainer" CdmEntityContainer="neptuneEntities2">
+    <EntitySetMapping Name="CustomersInmarsatProviders">
+      <EntityTypeMapping TypeName="neptuneModel2.CustomersInmarsatProvider">
+        <MappingFragment StoreEntitySet="CustomersInmarsatProviders">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustPosProvId" ColumnName="CustPosProvId" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="DNID" ColumnName="DNID" />
+          <ScalarProperty Name="MemberNumber" ColumnName="MemberNumber" />
+          <ScalarProperty Name="TerminalId" ColumnName="TerminalId" />
+          <ScalarProperty Name="PollInterval" ColumnName="PollInterval" />
+          <ScalarProperty Name="IsActivated" ColumnName="IsActivated" />
+          <ScalarProperty Name="IsProgramming" ColumnName="IsProgramming" />
+          <ScalarProperty Name="LastModifiedUtc" ColumnName="LastModifiedUtc" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+          <ScalarProperty Name="SubAddress" ColumnName="SubAddress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

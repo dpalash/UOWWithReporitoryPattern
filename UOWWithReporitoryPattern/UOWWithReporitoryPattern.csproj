@@ -1,0 +1,1022 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FB6B2F9A-9315-4A9F-A5BB-E31D332C1A71}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UOWWithReporitoryPattern</RootNamespace>
+    <AssemblyName>UOWWithReporitoryPattern</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClassDiagram-SFNeptuneServer\activesubscription.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\activesubscriptions_backup.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\activesubscriptions_new.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\AdpCoverageArea.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\AdpItem.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\AdpProduct.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\AdpSubscription.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\BASectV.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\CancelledNotice.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Category.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\CountriesAllowingPaysPlu.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Country.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Currency.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\customer.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\CustomerDeviceInfo.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\CustomerEcdi.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\CustomerEncVersion.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\CustomerGroup.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\CustomerInfo.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\CustomerPermitsExtraLine.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\CustomerPermitsPriorToPay.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\CustomersInmarsatProvider.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\CustomersPositionProvider.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\CustomVersion.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Data_EFS.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\document_types.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\EcdisType.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\EFS_PendingData.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\EFS_PendingMail.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\EncBaseCDCoverage.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\EncCell.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\EncCellCustomerPaysArea.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\EncCellCustomerPaysAreasHistory.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\EncCellCustomerPermit.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\EncCellCustomerPermitsHistory.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\EncCellReplacement.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\EncCellsHistory.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\EncCellsInEncProduct.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\EncCells_Dummy.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\EncFileInfo.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\EncOrder.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\EncOrderHeader.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\EncOrderHeadersHistory.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\EncOrdersHistory.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\EncOrderStatu.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\EncOrderType.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\EncProduct.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\EncProductPrice.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\EncProductType.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\EncVersion.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\errorlog.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\ExchangeRate.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\ExtraProductsAllowed.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\FagbokforlagetCatalog.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\file.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\FilesAddedDate.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\FlatFeeZone.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\FrequentlyUsedEncProduct.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\ImoCatalog.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\ImoPublicationCorrection.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\ImoPublicationsNoDigital.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\ImrayCatalog.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\inactivesubscriptions_not_in_use.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\InmarsatProviderHistory.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\issuer.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\IssuerPrefix.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\IssuersAvailableToCustomer.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\IssuersCustomerInfo.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\IssuersEncOrderHeader.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\IssuersEncOrderHeadersHistory.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\IssuersEncOrderHeaderStatu.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\IssuersVesselCompanyInfo.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Language.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\LogBookCatalog.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\LogEntry.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\log_sentfiles.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\MarpolData.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\MediaType.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\MiscDownload.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Moved_OptionalFiles.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Moved_XmlNTMData.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NaviLogCustomerDataSyncInformation.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NaviLogLogBookRecord.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NaviLogPublicationDocumentDetail.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NaviLogUserInfo.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NaviManagerCustomerGroup.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NaviManagerPasswordResetCode.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NaviManagerThresholdConfig.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NaviManagerThresholdType.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NaviManagerUser.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NaviManagerUserToken.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NaviTabBackupBackgroundImage.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NaviTabBackupCorrection.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NaviTabBackupCustomerInfo.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NaviTabBackupEReaderUser.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NaviTabBackupNaviTabInformation.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NaviTabBackupPdfAttachment.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NaviTabBackupPendingDownload.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NaviTabBackupPendingPublicationDownload.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NaviTabBackupPublicaitonCatalogInfo.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NaviTabBackupPublicationDocument.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NaviTabBackupSearchSuggestion.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NaviTabBackupServerInformation.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\nept2_admin_users.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\nept2_customversions.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\nept2_files.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\nept2_fredrik_location.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\nept2_package.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\nept2_server.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\nept2_session.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\nept2_watchlist.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NeptuneVesselIncrementalReport.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NeptuneVesselIncrementalReports_Old.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NeptuneVesselSetting.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NeptuneVesselStatu.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Neptune_AutoReport.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Neptune_Files.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Neptune_Files_old.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Neptune_Logons.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Neptune_Logons_old.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NorwegianCatalog.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\NotificationMessage.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Ntm_AUS.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Ntm_BR.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Ntm_JP.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Ntm_NZ.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\OptionalFile.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\OrderHeader.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\OrderLine.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\OrderStatu.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\package.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Package1.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\PackageOpen.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\package_files.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\package_open.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\PaysAreaStatu.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\PermitStatu.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\poseidon_access.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\poseidon_custom_userinformation.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\poseidon_flag.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\poseidon_group.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\poseidon_session.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\poseidon_user.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\poseidon_variable.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\poseidon_watchlist.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\PositionProvider.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\prefixtable.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\PreorderedPublicationInformation.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\PrimarCountry.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\PrimarSubscriptionType.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\PrimarVesselCategory.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\ProductGroup.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\ProductPrice.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\PublicationCorrectionDocument.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\PublicationDocument.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\PublicationDocumentsIndexInfo.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\RequiredEncsForSharedRoute.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\RequiredEncsForVoyage.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\rssNew.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Server.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\session.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Session1.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\session_details.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\SharedRouteFileInfo.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\ShippingGuidesCatalog.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\SynchronizedEntity.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\TankedPublicationInfo.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Tracking.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Transfer.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\USCatalog.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\USCorrection.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\USCorrections_Temp.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\ValueAddedSubscription.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\ValueAddedSubscriptionStatu.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\ValueAddedSubscriptionType.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\ValueAddedSubscriptionTypePrice.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Variable.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\VesselCategory.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\VesselCompany.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\VesselCompanyFile.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\VesselCompanyFileAccess.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\VesselCompanyFileType.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\VesselCompanyPublicationCategory.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\VesselPosition.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\VesselPositionsHistory.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\VesselPositionsHistory2013.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\VesselPositionsHistory2014.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\VesselPositionsHistory2015.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\VesselPositionsHistory2016.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\VesselPositionStatu.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\VesselPositions_Dummy.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\VesselZone.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\Voyage.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\VoyageDocument.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\VoyageRoute.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\WB_Pending.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDiagram-SFNeptuneServer\XmlNTMData.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\activesubscription.cs" />
+    <Compile Include="Customer\activesubscriptions_backup.cs" />
+    <Compile Include="Customer\activesubscriptions_new.cs" />
+    <Compile Include="Customer\CountriesAllowingPaysPlu.cs" />
+    <Compile Include="Customer\Country.cs" />
+    <Compile Include="Customer\customer.cs" />
+    <Compile Include="Customer\CustomerDeviceInfo.cs" />
+    <Compile Include="Customer\CustomerEcdi.cs" />
+    <Compile Include="Customer\CustomerGroup.cs" />
+    <Compile Include="Customer\CustomerInfo.cs" />
+    <Compile Include="Customer\CustomerManagementContext.cs" />
+    <Compile Include="Customer\CustomerPermitsExtraLine.cs" />
+    <Compile Include="Customer\CustomerPermitsPriorToPay.cs" />
+    <Compile Include="Customer\CustomersInmarsatProvider.cs" />
+    <Compile Include="Customer\CustomersPositionProvider.cs" />
+    <Compile Include="Customer\CustomVersion.cs" />
+    <Compile Include="Customer\PositionProvider.cs" />
+    <Compile Include="Customer\Tracking.cs" />
+    <Compile Include="Customer\VesselCategory.cs" />
+    <Compile Include="Customer\VesselCompany.cs" />
+    <Compile Include="Customer\VesselPosition.cs" />
+    <Compile Include="DBFirst\DemoModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DemoModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBFirst\DemoModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DemoModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBFirst\DemoModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DemoModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="ExampleClass.cs" />
+    <Compile Include="Marpol-New\MarpolAnnex.cs" />
+    <Compile Include="Marpol-New\MarpolCategory.cs" />
+    <Compile Include="Marpol-New\MarpolFileInfo.cs" />
+    <Compile Include="Marpol-New\MarpolRegion.cs" />
+    <Compile Include="Marpol-New\MarpolRegionsInAnnex.cs" />
+    <Compile Include="Marpol-New\MarpolRegionsInCategory.cs" />
+    <Compile Include="Marpol-New\Model1.cs" />
+    <Compile Include="Marpol\MarpolData.cs" />
+    <Compile Include="Marpol\MarpolDataContext.cs" />
+    <Compile Include="ModelEntiry\Customer.cs" />
+    <Compile Include="ModelEntiry\CustomerGroup.cs" />
+    <Compile Include="ModelEntiry\CustomerGroupVsCustomer.cs" />
+    <Compile Include="ModelEntiry\UOWDBContext.cs" />
+    <Compile Include="NewFolder1\activesubscription.cs" />
+    <Compile Include="NewFolder1\activesubscriptions_backup.cs" />
+    <Compile Include="NewFolder1\activesubscriptions_new.cs" />
+    <Compile Include="NewFolder1\AdpCoverageArea.cs" />
+    <Compile Include="NewFolder1\AdpItem.cs" />
+    <Compile Include="NewFolder1\AdpProduct.cs" />
+    <Compile Include="NewFolder1\AdpSubscription.cs" />
+    <Compile Include="NewFolder1\BASectV.cs" />
+    <Compile Include="NewFolder1\CancelledNotice.cs" />
+    <Compile Include="NewFolder1\Category.cs" />
+    <Compile Include="NewFolder1\CountriesAllowingPaysPlu.cs" />
+    <Compile Include="NewFolder1\Country.cs" />
+    <Compile Include="NewFolder1\customer.cs" />
+    <Compile Include="NewFolder1\CustomerDeviceInfo.cs" />
+    <Compile Include="NewFolder1\CustomerEcdi.cs" />
+    <Compile Include="NewFolder1\CustomerGroup.cs" />
+    <Compile Include="NewFolder1\CustomerInfo.cs" />
+    <Compile Include="NewFolder1\CustomerPermitsExtraLine.cs" />
+    <Compile Include="NewFolder1\CustomersInmarsatProvider.cs" />
+    <Compile Include="NewFolder1\CustomersPositionProvider.cs" />
+    <Compile Include="NewFolder1\CustomVersion.cs" />
+    <Compile Include="NewFolder1\Data_EFS.cs" />
+    <Compile Include="NewFolder1\document_types.cs" />
+    <Compile Include="NewFolder1\EcdisType.cs" />
+    <Compile Include="NewFolder1\EFS_PendingData.cs" />
+    <Compile Include="NewFolder1\EFS_PendingMail.cs" />
+    <Compile Include="NewFolder1\EncBaseCDCoverage.cs" />
+    <Compile Include="NewFolder1\EncCell.cs" />
+    <Compile Include="NewFolder1\EncCellCustomerPaysArea.cs" />
+    <Compile Include="NewFolder1\EncCellCustomerPaysAreasHistory.cs" />
+    <Compile Include="NewFolder1\EncCellCustomerPermit.cs" />
+    <Compile Include="NewFolder1\EncCellCustomerPermitsHistory.cs" />
+    <Compile Include="NewFolder1\EncCellReplacement.cs" />
+    <Compile Include="NewFolder1\EncCellsHistory.cs" />
+    <Compile Include="NewFolder1\EncCellsInEncProduct.cs" />
+    <Compile Include="NewFolder1\EncOrder.cs" />
+    <Compile Include="NewFolder1\EncOrderHeader.cs" />
+    <Compile Include="NewFolder1\EncOrderHeadersHistory.cs" />
+    <Compile Include="NewFolder1\EncOrdersHistory.cs" />
+    <Compile Include="NewFolder1\EncOrderStatu.cs" />
+    <Compile Include="NewFolder1\EncOrderType.cs" />
+    <Compile Include="NewFolder1\EncProduct.cs" />
+    <Compile Include="NewFolder1\EncProductPrice.cs" />
+    <Compile Include="NewFolder1\EncProductType.cs" />
+    <Compile Include="NewFolder1\errorlog.cs" />
+    <Compile Include="NewFolder1\ExchangeRate.cs" />
+    <Compile Include="NewFolder1\ExtraProductsAllowed.cs" />
+    <Compile Include="NewFolder1\file.cs" />
+    <Compile Include="NewFolder1\FilesAddedDate.cs" />
+    <Compile Include="NewFolder1\FlatFeeZone.cs" />
+    <Compile Include="NewFolder1\FrequentlyUsedEncProduct.cs" />
+    <Compile Include="NewFolder1\ImoCatalog.cs" />
+    <Compile Include="NewFolder1\ImoPublicationCorrection.cs" />
+    <Compile Include="NewFolder1\ImoPublicationsNoDigital.cs" />
+    <Compile Include="NewFolder1\ImrayCatalog.cs" />
+    <Compile Include="NewFolder1\inactivesubscriptions_not_in_use.cs" />
+    <Compile Include="NewFolder1\InmarsatProviderHistory.cs" />
+    <Compile Include="NewFolder1\issuer.cs" />
+    <Compile Include="NewFolder1\IssuerPrefix.cs" />
+    <Compile Include="NewFolder1\IssuersAvailableToCustomer.cs" />
+    <Compile Include="NewFolder1\IssuersCustomerInfo.cs" />
+    <Compile Include="NewFolder1\IssuersEncOrderHeader.cs" />
+    <Compile Include="NewFolder1\IssuersEncOrderHeadersHistory.cs" />
+    <Compile Include="NewFolder1\IssuersEncOrderHeaderStatu.cs" />
+    <Compile Include="NewFolder1\IssuersVesselCompanyInfo.cs" />
+    <Compile Include="NewFolder1\Language.cs" />
+    <Compile Include="NewFolder1\LogEntry.cs" />
+    <Compile Include="NewFolder1\log_sentfiles.cs" />
+    <Compile Include="NewFolder1\MediaType.cs" />
+    <Compile Include="NewFolder1\MiscDownload.cs" />
+    <Compile Include="NewFolder1\Model1.cs" />
+    <Compile Include="NewFolder1\Moved_OptionalFiles.cs" />
+    <Compile Include="NewFolder1\Moved_XmlNTMData.cs" />
+    <Compile Include="NewFolder1\NaviTabBackupBackgroundImage.cs" />
+    <Compile Include="NewFolder1\NaviTabBackupCorrection.cs" />
+    <Compile Include="NewFolder1\NaviTabBackupCustomerInfo.cs" />
+    <Compile Include="NewFolder1\NaviTabBackupEReaderUser.cs" />
+    <Compile Include="NewFolder1\NaviTabBackupNaviTabInformation.cs" />
+    <Compile Include="NewFolder1\NaviTabBackupPdfAttachment.cs" />
+    <Compile Include="NewFolder1\NaviTabBackupPendingDownload.cs" />
+    <Compile Include="NewFolder1\NaviTabBackupPendingPublicationDownload.cs" />
+    <Compile Include="NewFolder1\NaviTabBackupPublicaitonCatalogInfo.cs" />
+    <Compile Include="NewFolder1\NaviTabBackupPublicationDocument.cs" />
+    <Compile Include="NewFolder1\NaviTabBackupSearchSuggestion.cs" />
+    <Compile Include="NewFolder1\NaviTabBackupServerInformation.cs" />
+    <Compile Include="NewFolder1\nept2_admin_users.cs" />
+    <Compile Include="NewFolder1\nept2_customversions.cs" />
+    <Compile Include="NewFolder1\nept2_files.cs" />
+    <Compile Include="NewFolder1\nept2_fredrik_location.cs" />
+    <Compile Include="NewFolder1\nept2_package.cs" />
+    <Compile Include="NewFolder1\nept2_server.cs" />
+    <Compile Include="NewFolder1\nept2_session.cs" />
+    <Compile Include="NewFolder1\nept2_watchlist.cs" />
+    <Compile Include="NewFolder1\NeptuneVesselIncrementalReport.cs" />
+    <Compile Include="NewFolder1\NeptuneVesselIncrementalReports_Old.cs" />
+    <Compile Include="NewFolder1\NeptuneVesselSetting.cs" />
+    <Compile Include="NewFolder1\NeptuneVesselStatu.cs" />
+    <Compile Include="NewFolder1\Neptune_AutoReport.cs" />
+    <Compile Include="NewFolder1\Neptune_Files.cs" />
+    <Compile Include="NewFolder1\Neptune_Files_old.cs" />
+    <Compile Include="NewFolder1\Neptune_Logons.cs" />
+    <Compile Include="NewFolder1\Neptune_Logons_old.cs" />
+    <Compile Include="NewFolder1\NorwegianCatalog.cs" />
+    <Compile Include="NewFolder1\Ntm_AUS.cs" />
+    <Compile Include="NewFolder1\Ntm_BR.cs" />
+    <Compile Include="NewFolder1\Ntm_JP.cs" />
+    <Compile Include="NewFolder1\Ntm_NZ.cs" />
+    <Compile Include="NewFolder1\OptionalFile.cs" />
+    <Compile Include="NewFolder1\OrderHeader.cs" />
+    <Compile Include="NewFolder1\OrderLine.cs" />
+    <Compile Include="NewFolder1\OrderStatu.cs" />
+    <Compile Include="NewFolder1\package.cs" />
+    <Compile Include="NewFolder1\Package1.cs" />
+    <Compile Include="NewFolder1\PackageOpen.cs" />
+    <Compile Include="NewFolder1\package_files.cs" />
+    <Compile Include="NewFolder1\package_open.cs" />
+    <Compile Include="NewFolder1\PaysAreaStatu.cs" />
+    <Compile Include="NewFolder1\PermitStatu.cs" />
+    <Compile Include="NewFolder1\poseidon_access.cs" />
+    <Compile Include="NewFolder1\poseidon_custom_userinformation.cs" />
+    <Compile Include="NewFolder1\poseidon_flag.cs" />
+    <Compile Include="NewFolder1\poseidon_group.cs" />
+    <Compile Include="NewFolder1\poseidon_session.cs" />
+    <Compile Include="NewFolder1\poseidon_user.cs" />
+    <Compile Include="NewFolder1\poseidon_variable.cs" />
+    <Compile Include="NewFolder1\poseidon_watchlist.cs" />
+    <Compile Include="NewFolder1\PositionProvider.cs" />
+    <Compile Include="NewFolder1\prefixtable.cs" />
+    <Compile Include="NewFolder1\PreorderedPublicationInformation.cs" />
+    <Compile Include="NewFolder1\PrimarCountry.cs" />
+    <Compile Include="NewFolder1\PrimarSubscriptionType.cs" />
+    <Compile Include="NewFolder1\PrimarVesselCategory.cs" />
+    <Compile Include="NewFolder1\ProductGroup.cs" />
+    <Compile Include="NewFolder1\ProductPrice.cs" />
+    <Compile Include="NewFolder1\PublicationCorrectionDocument.cs" />
+    <Compile Include="NewFolder1\PublicationDocument.cs" />
+    <Compile Include="NewFolder1\PublicationDocumentsIndexInfo.cs" />
+    <Compile Include="NewFolder1\rssNew.cs" />
+    <Compile Include="NewFolder1\Server.cs" />
+    <Compile Include="NewFolder1\session.cs" />
+    <Compile Include="NewFolder1\Session1.cs" />
+    <Compile Include="NewFolder1\session_details.cs" />
+    <Compile Include="NewFolder1\ShippingGuidesCatalog.cs" />
+    <Compile Include="NewFolder1\SynchronizedEntity.cs" />
+    <Compile Include="NewFolder1\TankedPublicationInfo.cs" />
+    <Compile Include="NewFolder1\Tracking.cs" />
+    <Compile Include="NewFolder1\Transfer.cs" />
+    <Compile Include="NewFolder1\USCatalog.cs" />
+    <Compile Include="NewFolder1\USCorrection.cs" />
+    <Compile Include="NewFolder1\USCorrections_Temp.cs" />
+    <Compile Include="NewFolder1\VesselCategory.cs" />
+    <Compile Include="NewFolder1\VesselCompany.cs" />
+    <Compile Include="NewFolder1\VesselCompanyFile.cs" />
+    <Compile Include="NewFolder1\VesselCompanyFileAccess.cs" />
+    <Compile Include="NewFolder1\VesselCompanyFileType.cs" />
+    <Compile Include="NewFolder1\VesselCompanyPublicationCategory.cs" />
+    <Compile Include="NewFolder1\VesselPosition.cs" />
+    <Compile Include="NewFolder1\VesselPositionsHistory.cs" />
+    <Compile Include="NewFolder1\VesselPositionsHistory2013.cs" />
+    <Compile Include="NewFolder1\VesselPositionsHistory2014.cs" />
+    <Compile Include="NewFolder1\VesselPositionsHistory2015.cs" />
+    <Compile Include="NewFolder1\VesselPositionsHistory2016.cs" />
+    <Compile Include="NewFolder1\VesselPositionStatu.cs" />
+    <Compile Include="NewFolder1\VesselZone.cs" />
+    <Compile Include="NewFolder1\WB_Pending.cs" />
+    <Compile Include="NewFolder1\XmlNTMData.cs" />
+    <Compile Include="NewFolder2\CountriesAllowingPaysPlu.cs" />
+    <Compile Include="NewFolder2\EncCell.cs" />
+    <Compile Include="NewFolder2\EncCellCustomerPaysArea.cs" />
+    <Compile Include="NewFolder2\EncCellCustomerPaysAreasHistory.cs" />
+    <Compile Include="NewFolder2\EncCellCustomerPermit.cs" />
+    <Compile Include="NewFolder2\EncCellCustomerPermitsHistory.cs" />
+    <Compile Include="NewFolder2\EncCellReplacement.cs" />
+    <Compile Include="NewFolder2\EncCellsHistory.cs" />
+    <Compile Include="NewFolder2\EncCellsInEncProduct.cs" />
+    <Compile Include="NewFolder2\EncOrder.cs" />
+    <Compile Include="NewFolder2\EncOrderHeader.cs" />
+    <Compile Include="NewFolder2\EncOrderHeadersHistory.cs" />
+    <Compile Include="NewFolder2\EncOrdersHistory.cs" />
+    <Compile Include="NewFolder2\EncOrderStatu.cs" />
+    <Compile Include="NewFolder2\EncOrderType.cs" />
+    <Compile Include="NewFolder2\EncProduct.cs" />
+    <Compile Include="NewFolder2\EncProductPrice.cs" />
+    <Compile Include="NewFolder2\EncProductType.cs" />
+    <Compile Include="NewFolder2\ExchangeRate.cs" />
+    <Compile Include="NewFolder2\issuer.cs" />
+    <Compile Include="NewFolder2\IssuersEncOrderHeader.cs" />
+    <Compile Include="NewFolder2\IssuersEncOrderHeadersHistory.cs" />
+    <Compile Include="NewFolder2\IssuersEncOrderHeaderStatu.cs" />
+    <Compile Include="NewFolder2\Model1.cs" />
+    <Compile Include="NewFolder3\EncCellCustomerPaysArea.cs" />
+    <Compile Include="NewFolder3\EncCellCustomerPaysAreasHistory.cs" />
+    <Compile Include="NewFolder3\EncCellCustomerPermit.cs" />
+    <Compile Include="NewFolder3\EncCellCustomerPermitsHistory.cs" />
+    <Compile Include="NewFolder3\EncOrder.cs" />
+    <Compile Include="NewFolder3\EncOrderHeader.cs" />
+    <Compile Include="NewFolder3\EncOrderHeadersHistory.cs" />
+    <Compile Include="NewFolder3\EncOrdersHistory.cs" />
+    <Compile Include="NewFolder3\EncOrderStatu.cs" />
+    <Compile Include="NewFolder3\EncOrderType.cs" />
+    <Compile Include="NewFolder3\IssuersEncOrderHeader.cs" />
+    <Compile Include="NewFolder3\IssuersEncOrderHeadersHistory.cs" />
+    <Compile Include="NewFolder3\IssuersEncOrderHeaderStatu.cs" />
+    <Compile Include="NewFolder3\Model1.cs" />
+    <Compile Include="NewFolder5\CustomersInmarsatProvider.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NewFolder5\Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NewFolder5\Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NewFolder5\Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Notifications\customer.cs" />
+    <Compile Include="Notifications\GeneralEntityManagementDbContext.cs" />
+    <Compile Include="Notifications\NotificationMessage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="GenericRepository\ISqlDBRepository.cs" />
+    <Compile Include="GenericRepository\SqlDBRepository.cs" />
+    <Compile Include="Repositories\ICustomerRepository.cs" />
+    <Compile Include="Repositories\CustomerRepository.cs" />
+    <Compile Include="UOW\GenericUnitOfWork.cs" />
+    <Compile Include="ValueAddedSubscription\ValueAddedSubscription.cs" />
+    <Compile Include="ValueAddedSubscription\ValueAddedSubscriptionContext.cs" />
+    <Compile Include="ValueAddedSubscription\ValueAddedSubscriptionType.cs" />
+    <Compile Include="ValueAddedSubscription\ValueAddedSubscriptionTypePrice.cs" />
+    <Compile Include="Voyage\EncCell.cs" />
+    <Compile Include="Voyage\issuer.cs" />
+    <Compile Include="Voyage\MissingEncsForVoyage.cs" />
+    <Compile Include="Voyage\OutdatedEncsForVoyage.cs" />
+    <Compile Include="Voyage\RequiredEncsForVoyage.cs" />
+    <Compile Include="Voyage\Voyage.cs" />
+    <Compile Include="Voyage\VoyageContext.cs" />
+    <Compile Include="Voyage\VoyageRoute.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="ClassDiagram-SFNeptuneServer\Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ClassDiagram-SFNeptuneServer\Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <EntityDeploy Include="DBFirst\DemoModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>DemoModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="DBFirst\DemoModel.edmx.diagram">
+      <DependentUpon>DemoModel.edmx</DependentUpon>
+    </None>
+    <EntityDeploy Include="NewFolder5\Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="NewFolder5\Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder4\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ClassDiagram-SFNeptuneServer\Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ClassDiagram-SFNeptuneServer\Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
+    <Content Include="DBFirst\DemoModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DemoModel.edmx</DependentUpon>
+      <LastGenOutput>DemoModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="DBFirst\DemoModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DemoModel.edmx</DependentUpon>
+      <LastGenOutput>DemoModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="NewFolder5\Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="NewFolder5\Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

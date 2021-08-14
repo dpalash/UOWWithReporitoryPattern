@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="31730040e7cc4a15933e15016f49d3f8" Name="Diagram1" ZoomLevel="100">
+        <EntityTypeShape EntityType="neptuneModel1.activesubscription" Width="1.5" PointX="18.75" PointY="54.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.activesubscriptions_backup" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.AdpCoverageArea" Width="1.5" PointX="7.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.AdpItem" Width="1.5" PointX="10" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.AdpProduct" Width="1.5" PointX="7.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.AdpSubscription" Width="1.5" PointX="12.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.CancelledNotice" Width="1.5" PointX="0.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.Category" Width="1.5" PointX="0.75" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.Country" Width="1.5" PointX="3" PointY="49.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.Currency" Width="1.5" PointX="5.25" PointY="48.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.customer" Width="1.5" PointX="7.5" PointY="52" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.CustomerEcdi" Width="1.5" PointX="15.75" PointY="56" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.CustomerEncVersion" Width="1.5" PointX="18.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.CustomerPermitsExtraLine" Width="1.5" PointX="12.75" PointY="64.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.CustomerPermitsPriorToPay" Width="1.5" PointX="9.75" PointY="51.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.CustomersInmarsatProvider" Width="1.5" PointX="15" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.CustomersPositionProvider" Width="1.5" PointX="12.75" PointY="48.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.CustomVersion" Width="1.5" PointX="11.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.Data_EFS" Width="1.5" PointX="2.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.EcdisType" Width="1.5" PointX="7.5" PointY="42.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.EFS_PendingData" Width="1.5" PointX="13.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.EFS_PendingMail" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.EncCellCustomerPaysArea" Width="1.5" PointX="12.75" PointY="56.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.EncCellCustomerPaysAreasHistory" Width="1.5" PointX="14.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.EncCellCustomerPermit" Width="1.5" PointX="9.75" PointY="63.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.EncCellCustomerPermitsHistory" Width="1.5" PointX="9.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.EncCellReplacement" Width="1.5" PointX="21" PointY="41.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.EncCell" Width="1.5" PointX="18.75" PointY="38.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.EncCellsHistory" Width="1.5" PointX="15.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.EncCellsInEncProduct" Width="1.5" PointX="21" PointY="78" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.EncFileInfo" Width="1.5" PointX="18.75" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.EncOrderHeader" Width="1.5" PointX="9.75" PointY="120.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.EncOrderHeadersHistory" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.EncOrder" Width="1.5" PointX="14.25" PointY="120.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.EncOrdersHistory" Width="1.5" PointX="16.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.EncOrderStatu" Width="1.5" PointX="12" PointY="125.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.EncOrderType" Width="1.5" PointX="12" PointY="128" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.EncProductPrice" Width="1.5" PointX="17.25" PointY="121.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.EncProduct" Width="1.5" PointX="12" PointY="115.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.EncProductType" Width="1.5" PointX="9.75" PointY="116.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.EncVersion" Width="1.5" PointX="21" PointY="37.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.ExchangeRate" Width="1.5" PointX="11.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.ExtraProductsAllowed" Width="1.5" PointX="10.5" PointY="74.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.FagbokforlagetCatalog" Width="1.5" PointX="19.5" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.file" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.FlatFeeZone" Width="1.5" PointX="9.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.FrequentlyUsedEncProduct" Width="1.5" PointX="9.75" PointY="60.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.ImoCatalog" Width="1.5" PointX="16.5" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.ImoPublicationCorrection" Width="1.5" PointX="21" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.ImrayCatalog" Width="1.5" PointX="16.5" PointY="30.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.InmarsatProviderHistory" Width="1.5" PointX="2.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.issuer" Width="1.5" PointX="16.5" PointY="37.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.IssuersAvailableToCustomer" Width="1.5" PointX="18.75" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.IssuersCustomerInfo" Width="1.5" PointX="9.75" PointY="56" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.IssuersEncOrderHeader" Width="1.5" PointX="12" PointY="121" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.IssuersEncOrderHeadersHistory" Width="1.5" PointX="18.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.IssuersEncOrderHeaderStatu" Width="1.5" PointX="9.75" PointY="113.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.IssuersVesselCompanyInfo" Width="1.5" PointX="7.5" PointY="63.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.Language" Width="1.5" PointX="11.25" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.LogBookCatalog" Width="1.5" PointX="19.5" PointY="30.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.LogEntry" Width="1.5" PointX="5" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.MarpolData" Width="1.5" PointX="4.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.MediaType" Width="1.5" PointX="11.25" PointY="33" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.MiscDownload" Width="1.5" PointX="6.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NaviLogCustomerDataSyncInformation" Width="1.5" PointX="8.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NaviLogLogBookRecord" Width="1.5" PointX="10.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NaviLogPublicationDocumentDetail" Width="1.5" PointX="23.25" PointY="67.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NaviLogUserInfo" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NaviManagerCustomerGroup" Width="1.5" PointX="20.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NaviManagerPasswordResetCode" Width="1.5" PointX="20.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NaviManagerThresholdConfig" Width="1.5" PointX="14" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NaviManagerThresholdType" Width="1.5" PointX="11.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NaviManagerUser" Width="1.5" PointX="20.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NaviManagerUserToken" Width="1.5" PointX="20.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NaviTabBackupBackgroundImage" Width="1.5" PointX="26" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NaviTabBackupCorrection" Width="1.5" PointX="26" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NaviTabBackupCustomerInfo" Width="1.5" PointX="23.75" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NaviTabBackupEReaderUser" Width="1.5" PointX="26" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NaviTabBackupNaviTabInformation" Width="1.5" PointX="26" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NaviTabBackupPdfAttachment" Width="1.5" PointX="26" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NaviTabBackupPendingDownload" Width="1.5" PointX="26" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NaviTabBackupPendingPublicationDownload" Width="1.5" PointX="26" PointY="29.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NaviTabBackupPublicaitonCatalogInfo" Width="1.5" PointX="26" PointY="32.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NaviTabBackupPublicationDocument" Width="1.5" PointX="26" PointY="35.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NaviTabBackupSearchSuggestion" Width="1.5" PointX="26" PointY="40" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NaviTabBackupServerInformation" Width="1.5" PointX="26" PointY="43.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.nept2_admin_users" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.nept2_customversions" Width="1.5" PointX="0.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.nept2_files" Width="1.5" PointX="22.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.nept2_fredrik_location" Width="1.5" PointX="6.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.nept2_package" Width="1.5" PointX="22.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.nept2_server" Width="1.5" PointX="22.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.nept2_session" Width="1.5" PointX="22.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.nept2_watchlist" Width="1.5" PointX="2.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NeptuneVesselIncrementalReport" Width="1.5" PointX="8.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NeptuneVesselIncrementalReports_Old" Width="1.5" PointX="10.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NeptuneVesselSetting" Width="1.5" PointX="4.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NeptuneVesselStatu" Width="1.5" PointX="0.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NorwegianCatalog" Width="1.5" PointX="16.5" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.NotificationMessage" Width="1.5" PointX="9.75" PointY="125.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.Ntm_BR" Width="1.5" PointX="28.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.OrderHeader" Width="1.5" PointX="12.75" PointY="51.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.OrderLine" Width="1.5" PointX="21" PointY="58.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.OrderStatu" Width="1.5" PointX="10.5" PointY="68.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.package" Width="1.5" PointX="2.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.package_files" Width="1.5" PointX="28.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.package_open" Width="1.5" PointX="4.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.PackageOpen" Width="1.5" PointX="9.5" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.Package1" Width="1.5" PointX="7.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.PaysAreaStatu" Width="1.5" PointX="10.5" PointY="71.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.PermitStatu" Width="1.5" PointX="7.5" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.poseidon_access" Width="1.5" PointX="6.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.poseidon_custom_userinformation" Width="1.5" PointX="28.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.poseidon_flag" Width="1.5" PointX="28.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.poseidon_group" Width="1.5" PointX="28.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.poseidon_session" Width="1.5" PointX="28.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.poseidon_user" Width="1.5" PointX="28.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.poseidon_variable" Width="1.5" PointX="21.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.poseidon_watchlist" Width="1.5" PointX="28.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.PositionProvider" Width="1.5" PointX="10.5" PointY="43" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.PreorderedPublicationInformation" Width="1.5" PointX="9.75" PointY="128.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.PrimarCountry" Width="1.5" PointX="0.75" PointY="49.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.PrimarSubscriptionType" Width="1.5" PointX="14.25" PointY="127.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.PrimarVesselCategory" Width="1.5" PointX="3" PointY="56.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.ProductGroup" Width="1.5" PointX="18.75" PointY="66.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.ProductPrice" Width="1.5" PointX="21" PointY="64" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.PublicationCorrectionDocument" Width="1.5" PointX="18.75" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.PublicationDocument" Width="1.5" PointX="21" PointY="67.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.PublicationDocumentsIndexInfo" Width="1.5" PointX="28.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.RequiredEncsForSharedRoute" Width="1.5" PointX="18" PointY="61.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.RequiredEncsForVoyage" Width="1.5" PointX="21" PointY="46.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.Server" Width="1.5" PointX="2.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.session" Width="1.5" PointX="30.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.session_details" Width="1.5" PointX="30.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.Session1" Width="1.5" PointX="5" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.SharedRouteFileInfo" Width="1.5" PointX="15.75" PointY="60" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.ShippingGuidesCatalog" Width="1.5" PointX="13.5" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.SynchronizedEntity" Width="1.5" PointX="30.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.TankedPublicationInfo" Width="1.5" PointX="30.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.Tracking" Width="1.5" PointX="9.75" PointY="131.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.Transfer" Width="1.5" PointX="7.25" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.USCatalog" Width="1.5" PointX="13.5" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.USCorrection" Width="1.5" PointX="30.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.USCorrections_Temp" Width="1.5" PointX="30.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.ValueAddedSubscription" Width="1.5" PointX="9.75" PointY="46.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.ValueAddedSubscriptionStatu" Width="1.5" PointX="7.5" PointY="45.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.ValueAddedSubscriptionTypePrice" Width="1.5" PointX="12.75" PointY="44.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.ValueAddedSubscriptionType" Width="1.5" PointX="7.5" PointY="48.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.Variable" Width="1.5" PointX="30.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.VesselCategory" Width="1.5" PointX="5.25" PointY="56.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.VesselCompany" Width="1.5" PointX="5.25" PointY="62.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.VesselCompanyFileAccess" Width="1.5" PointX="15.75" PointY="47.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.VesselCompanyFile" Width="1.5" PointX="13.5" PointY="32.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.VesselCompanyFileType" Width="1.5" PointX="11.25" PointY="37.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.VesselCompanyPublicationCategory" Width="1.5" PointX="11.25" PointY="39.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.VesselPosition" Width="1.5" PointX="15.75" PointY="50.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.VesselPositions_Dummy" Width="1.5" PointX="12.75" PointY="59.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.VesselPositionStatu" Width="1.5" PointX="13.5" PointY="69.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.VesselZone" Width="1.5" PointX="12" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.VoyageDocument" Width="1.5" PointX="21" PointY="51.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.VoyageRoute" Width="1.5" PointX="21" PointY="55.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.Voyage" Width="1.5" PointX="18.75" PointY="47.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.WB_Pending" Width="1.5" PointX="30.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.activesubscriptions_new" Width="1.5" PointX="4.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.BASectV" Width="1.5" PointX="6.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.CountriesAllowingPaysPlu" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.CustomerDeviceInfo" Width="1.5" PointX="21.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.CustomerGroup" Width="1.5" PointX="32.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.CustomerInfo" Width="1.5" PointX="0.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.document_types" Width="1.5" PointX="32.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.EncBaseCDCoverage" Width="1.5" PointX="32.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.EncCells_Dummy" Width="1.5" PointX="32.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.errorlog" Width="1.5" PointX="32.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.FilesAddedDate" Width="1.5" PointX="32.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.ImoPublicationsNoDigital" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.inactivesubscriptions_not_in_use" Width="1.5" PointX="32.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.IssuerPrefix" Width="1.5" PointX="32.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.log_sentfiles" Width="1.5" PointX="32.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.Moved_OptionalFiles" Width="1.5" PointX="28.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.Moved_XmlNTMData" Width="1.5" PointX="34.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.Neptune_AutoReport" Width="1.5" PointX="6.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.Neptune_Files" Width="1.5" PointX="34.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.Neptune_Files_old" Width="1.5" PointX="34.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.Neptune_Logons" Width="1.5" PointX="34.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.Neptune_Logons_old" Width="1.5" PointX="34.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.Ntm_AUS" Width="1.5" PointX="34.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.Ntm_JP" Width="1.5" PointX="34.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.Ntm_NZ" Width="1.5" PointX="34.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.OptionalFile" Width="1.5" PointX="0.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.prefixtable" Width="1.5" PointX="30.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.rssNew" Width="1.5" PointX="36.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.VesselPositionsHistory" Width="1.5" PointX="36.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.VesselPositionsHistory2013" Width="1.5" PointX="36.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.VesselPositionsHistory2014" Width="1.5" PointX="36.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.VesselPositionsHistory2015" Width="1.5" PointX="36.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.VesselPositionsHistory2016" Width="1.5" PointX="36.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="neptuneModel1.XmlNTMData" Width="1.5" PointX="36.75" PointY="30.75" IsExpanded="true" />
+        <AssociationConnector Association="neptuneModel1.FK_activesubscriptions_customer" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_activesubscriptions_issuers" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_AdpItems_AdpCoverageAreas" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_AdpItems_AdpProducts" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_AdpSubscriptions_AdpItems" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.fk_FagbokforlagetCatalog_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.fk_IMOCatalog_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.fk_ImrayCatalog_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.fk_LogBookCatalog_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.fk_NorwegianCatalog_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.fk_ShippingGuidesCatalog_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.fk_USCatalog_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_Countries_PrimarCountries" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_customer_Countries" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_VesselCompanies_Countries" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_ValueAddedSubscriptionTypePrices_Currencies" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_ValueAddedSubscriptionTypes_Currencies" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_customer_VesselCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_customer_VesselCompanies" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_CustomerEcdis_customer" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_CustomerId" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_CustomerPermitsExtraLines_customer" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_CustomerPermitsPriorToPays_customer" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_CustomersPositionProviders_customer" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncCellCustomerPaysAreas_customer" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncCellCustomerPermits_customer" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncOrderHeaders_customer" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_FrequentlyUsedEncProducts_customer" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_IssuersCustomerInfo_customer" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_NotificationMessages_customer" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_OrderHeaders_customer" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_PreorderedPublicationInformation_customer" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_RouteFileInfo_customer" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_Tracking_customer" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_ValueAddedSubscriptions_customer" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_VesselCompanyFiles_customer" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_VesselPositions_customer" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_VesselPositions_Dummy_customer" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_CustomerEcdis_EcdisType" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncVersion_CustomerEncVersion" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_CustomerPermitsExtraLines_EcdisType" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_CustomerPermitsExtraLines_ExtraProductsAllowed" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_CustomerPermitsExtraLines_PermitStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_CustomerPermitsPriorToPays_EcdisType" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_CustomerPermitsPriorToPays_EncCells" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_CustomerPermitsPriorToPays_EncOrders" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_CustomerPermitsPriorToPays_PermitStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_CustomersInmarsatProviders_CustomersPositionProviders" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_CustomersPositionProviders_PositionProviders" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncCellCustomerPermits_EcdisType" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncCellCustomerPaysAreas_EncCells" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncCellCustomerPaysAreas_PaysAreaStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncCellCustomerPermits_EncCells" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncCellCustomerPermits_EncOrders" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncCellCustomerPermits_PermitStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncCellReplacements_EncCell_ReplacementCellId" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncCellReplacements_EncCells_CellId" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncCells_issuers" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncCellsInEncProduct_EncCells" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncVersion_EncCells" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_RequiredEncForVoyage_EncCell" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_RequiredEncsForSharedRoute_EncCell" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncCellsInEncProduct_EncProducts" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncFileInfos_issuers" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_IssuersEncOrderHeaders_EncOrderHeaders" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncOrders_EncOrderStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncOrders_EncOrderType" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncOrders_EncProducts" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncOrders_IssuersEncOrderHeaders" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncProductPrices_EncOrderType" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_PrimarSubscriptionTypes_EncOrderType" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncProductPrices_EncProducts" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncProducts_EncProductType" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_EncProducts_issuers" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_FrequentlyUsedEncProducts_EncProducts" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_ExtraProductsAllowed_issuers" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.fk_FagbokforlagetCatalog_Language" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.fk_FagbokforlagetCatalog_MediaType" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK__VesselZon__FlatF__5792F321" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.fk_IMOCatalog_Language" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.fk_IMOCatalog_MediaType" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK__ImoPublic__Corre__3B2BBE9D" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.fk_ImrayCatalog_Language" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.fk_ImrayCatalog_MediaType" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_IssuerId" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_IssuersAvailableToCustomer_Issuers" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_IssuersCustomerInfo_issuers" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_IssuersEncOrderHeaders_issuers" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_IssuersVesselCompanyInfo_issuers" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_OrderLines_issuers" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_PublicationCorrectionDocuments_issuers" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_RouteFileInfo_issuers" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_IssuersEncOrderHeaders_IssuersEncOrderHeaderStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_IssuersVesselCompanyInfo_VesselCompanies" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.fk_LogBookCatalog_Language" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.fk_NorwegianCatalog_Language" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.fk_ShippingGuidesCatalog_Language" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.fk_USCatalog_Language" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.fk_VesselCompanyFiles_Language" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.fk_LogBookCatalog_MediaType" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_LogEntries_Servers" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.fk_NorwegianCatalog_MediaType" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.fk_ShippingGuidesCatalog_MediaType" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.fk_USCatalog_MediaType" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.fk_VesselCompanyFiles_MediaType" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_NaviLogPublicationDocumentDetail_PublicationDocuments" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_ThresholdConfig_ThresholdTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_NaviTabBackupBackgroundImage_NaviTabBackupCustomerInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_NaviTabBackupCurrection_NaviTabBackupCustomerInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_NaviTabBackupEReaderUser_NaviTabBackupCustomerInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_NaviTabBackupNaviTabInformation_NaviTabBackupCustomerInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_NaviTabBackupPdfAttachment_NaviTabBackupCustomerInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_NaviTabBackupPendingDownload_NaviTabBackupCustomerInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_NaviTabBackupPendingPublicationDownload_NaviTabBackupCustomerInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_NaviTabBackupPublicaitonCatalogInfo_NaviTabBackupCustomerInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_NaviTabBackupPublicationDocument_NaviTabBackupCustomerInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_NaviTabBackupSearchSuggestion_NaviTabBackupCustomerInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_NaviTabBackupServerInformation_NaviTabBackupCustomerInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_OrderHeaders_OrderStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_OrderLines_OrderHeaders" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_OrderLines_OrderStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_OrderLines_ProductGroups" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_PackageOpens_Packages" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_PackageOpens_Sessions" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_Packages_Sessions" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_VesselPositions_Dummy_PositionProviders1" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_VesselPositions_PositionProviders1" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_VesselCategories_PrimarVesselCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_ProductGroupId" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_ProductPrices_ProductGroups" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_RequiredEncsForSharedRoute_RouteFileInfos" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_RequiredEncsForVoyage_Voyages" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_Sessions_Servers" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_Transfers_Sessions" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_ValueAddedSubscriptions_ValueAddedSubscriptionStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_ValueAddedSubscriptions_ValueAddedSubscriptionTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_ValueAddedSubscriptionTypePrices_ValueAddedSubscriptionType" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_VesselCompanyFileAccess_VesselCompanyFiles" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_VesselCompanyFiles_VesselCompanyFileTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_VesselCompanyFiles_VesselCompanyPublicationCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_VesselPositions_VesselPositionStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_VesselPositions_Dummy_VesselPositionStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_VoyageDocuments_Voyages" ManuallyRouted="false" />
+        <AssociationConnector Association="neptuneModel1.FK_VoyageRoute_Voyages" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

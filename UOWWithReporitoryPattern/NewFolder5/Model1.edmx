@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="neptuneModel2.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CustomersInmarsatProviders">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CustPosProvId" Type="int" Nullable="false" />
+          <Property Name="Region" Type="smallint" Nullable="false" />
+          <Property Name="DNID" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="MemberNumber" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="TerminalId" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="PollInterval" Type="int" Nullable="false" />
+          <Property Name="IsActivated" Type="bit" Nullable="false" />
+          <Property Name="IsProgramming" Type="bit" Nullable="false" />
+          <Property Name="LastModifiedUtc" Type="datetime" Nullable="false" />
+          <Property Name="Discriminator" Type="varchar" MaxLength="50" />
+          <Property Name="SubAddress" Type="smallint" />
+        </EntityType>
+        <EntityContainer Name="neptuneModel2StoreContainer">
+          <EntitySet Name="CustomersInmarsatProviders" EntityType="Self.CustomersInmarsatProviders" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="neptuneModel2" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="CustomersInmarsatProvider">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CustPosProvId" Type="Int32" Nullable="false" />
+          <Property Name="Region" Type="Int16" Nullable="false" />
+          <Property Name="DNID" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="MemberNumber" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="TerminalId" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PollInterval" Type="Int32" Nullable="false" />
+          <Property Name="IsActivated" Type="Boolean" Nullable="false" />
+          <Property Name="IsProgramming" Type="Boolean" Nullable="false" />
+          <Property Name="LastModifiedUtc" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Discriminator" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="SubAddress" Type="Int16" />
+        </EntityType>
+        <EntityContainer Name="neptuneEntities2" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CustomersInmarsatProviders" EntityType="Self.CustomersInmarsatProvider" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="neptuneModel2StoreContainer" CdmEntityContainer="neptuneEntities2">
+          <EntitySetMapping Name="CustomersInmarsatProviders">
+            <EntityTypeMapping TypeName="neptuneModel2.CustomersInmarsatProvider">
+              <MappingFragment StoreEntitySet="CustomersInmarsatProviders">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="CustPosProvId" ColumnName="CustPosProvId" />
+                <ScalarProperty Name="Region" ColumnName="Region" />
+                <ScalarProperty Name="DNID" ColumnName="DNID" />
+                <ScalarProperty Name="MemberNumber" ColumnName="MemberNumber" />
+                <ScalarProperty Name="TerminalId" ColumnName="TerminalId" />
+                <ScalarProperty Name="PollInterval" ColumnName="PollInterval" />
+                <ScalarProperty Name="IsActivated" ColumnName="IsActivated" />
+                <ScalarProperty Name="IsProgramming" ColumnName="IsProgramming" />
+                <ScalarProperty Name="LastModifiedUtc" ColumnName="LastModifiedUtc" />
+                <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+                <ScalarProperty Name="SubAddress" ColumnName="SubAddress" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,15 @@
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\TestConsoleApp\bin\Debug\TestConsoleApp.exe.config
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\TestConsoleApp\bin\Debug\TestConsoleApp.exe
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\TestConsoleApp\bin\Debug\TestConsoleApp.pdb
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\TestConsoleApp\bin\Debug\UOWWithReporitoryPattern.dll
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\TestConsoleApp\bin\Debug\EntityFramework.dll
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\TestConsoleApp\bin\Debug\UOWWithReporitoryPattern.pdb
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\TestConsoleApp\bin\Debug\UOWWithReporitoryPattern.dll.config
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\TestConsoleApp\bin\Debug\EntityFramework.xml
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\TestConsoleApp\obj\Debug\TestConsoleApp.exe
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\TestConsoleApp\obj\Debug\TestConsoleApp.pdb
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\TestConsoleApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\TestConsoleApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\TestConsoleApp\obj\Debug\TestConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\TestConsoleApp\obj\Debug\TestConsoleApp.csprojAssemblyReference.cache
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\TestConsoleApp\obj\Debug\TestConsoleApp.csproj.CopyComplete

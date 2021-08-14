@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="72f3aa4f-e0ac-4987-b0f6-927976c3657d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://enavigator.ukho.gov.uk/serviceB2B/submitUKHOOrdering.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="OrderingService.wsdl" MetadataType="Wsdl" ID="886a81c6-934c-47f5-b1cd-fcd32218313b" SourceId="1" SourceUrl="https://enavigator.ukho.gov.uk/ServiceB2B/SubmitUKHOOrdering.svc?wsdl" />
+    <MetadataFile FileName="SubmitUKHOOrdering.xsd" MetadataType="Schema" ID="7ce22d93-766b-4122-a7be-73d68837be11" SourceId="1" SourceUrl="https://enavigator.ukho.gov.uk/ServiceB2B/SubmitUKHOOrdering.svc?xsd=xsd2" />
+    <MetadataFile FileName="SubmitUKHOOrdering.disco" MetadataType="Disco" ID="f8f6bd9a-562a-4a44-9769-957d06ee6795" SourceId="1" SourceUrl="https://enavigator.ukho.gov.uk/serviceb2b/SubmitUKHOOrdering.svc?disco" />
+    <MetadataFile FileName="SubmitUKHOOrdering.wsdl" MetadataType="Wsdl" ID="2444058c-8904-4f23-8e31-df3a03c65a33" SourceId="1" SourceUrl="https://enavigator.ukho.gov.uk/ServiceB2B/SubmitUKHOOrdering.svc?wsdl=wsdl1" />
+    <MetadataFile FileName="SubmitUKHOOrdering1.xsd" MetadataType="Schema" ID="e0afa48d-6a9d-46db-9020-ab9a6d8ad835" SourceId="1" SourceUrl="https://enavigator.ukho.gov.uk/ServiceB2B/SubmitUKHOOrdering.svc?xsd=xsd4" />
+    <MetadataFile FileName="SubmitUKHOOrdering2.xsd" MetadataType="Schema" ID="e529b828-61af-477a-8298-a7265a2f59b4" SourceId="1" SourceUrl="https://enavigator.ukho.gov.uk/ServiceB2B/SubmitUKHOOrdering.svc?xsd=xsd5" />
+    <MetadataFile FileName="SubmitUKHOOrdering1.wsdl" MetadataType="Wsdl" ID="9bbad874-e595-40aa-9871-916b5cca8476" SourceId="1" SourceUrl="https://enavigator.ukho.gov.uk/ServiceB2B/SubmitUKHOOrdering.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="SubmitUKHOOrdering3.xsd" MetadataType="Schema" ID="8dce9fed-1821-4489-8b13-b52eda653b81" SourceId="1" SourceUrl="https://enavigator.ukho.gov.uk/ServiceB2B/SubmitUKHOOrdering.svc?xsd=xsd1" />
+    <MetadataFile FileName="SubmitUKHOOrdering4.xsd" MetadataType="Schema" ID="80edbff1-c820-49b6-a9ce-4b069f4e9460" SourceId="1" SourceUrl="https://enavigator.ukho.gov.uk/ServiceB2B/SubmitUKHOOrdering.svc?xsd=xsd6" />
+    <MetadataFile FileName="SubmitUKHOOrdering5.xsd" MetadataType="Schema" ID="ad250846-ceec-46c5-af17-c10efdd8c4ff" SourceId="1" SourceUrl="https://enavigator.ukho.gov.uk/ServiceB2B/SubmitUKHOOrdering.svc?xsd=xsd3" />
+    <MetadataFile FileName="SubmitUKHOOrdering6.xsd" MetadataType="Schema" ID="fefad883-5898-4fed-9a97-f0dbb9508314" SourceId="1" SourceUrl="https://enavigator.ukho.gov.uk/ServiceB2B/SubmitUKHOOrdering.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

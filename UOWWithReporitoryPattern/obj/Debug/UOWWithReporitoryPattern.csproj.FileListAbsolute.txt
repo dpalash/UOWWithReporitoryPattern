@@ -1,0 +1,12 @@
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\UOWWithReporitoryPattern\bin\Debug\UOWWithReporitoryPattern.dll.config
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\UOWWithReporitoryPattern\bin\Debug\UOWWithReporitoryPattern.dll
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\UOWWithReporitoryPattern\bin\Debug\UOWWithReporitoryPattern.pdb
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\UOWWithReporitoryPattern\bin\Debug\EntityFramework.dll
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\UOWWithReporitoryPattern\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\UOWWithReporitoryPattern\bin\Debug\EntityFramework.xml
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\UOWWithReporitoryPattern\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\UOWWithReporitoryPattern\obj\Debug\UOWWithReporitoryPattern.dll
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\UOWWithReporitoryPattern\obj\Debug\UOWWithReporitoryPattern.pdb
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\UOWWithReporitoryPattern\obj\Debug\UOWWithReporitoryPattern.csproj.CoreCompileInputs.cache
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\UOWWithReporitoryPattern\obj\Debug\UOWWithReporitoryPattern.csprojAssemblyReference.cache
+C:\Users\cefalo\Documents\Visual Studio 2017\Projects\UOWWithReporitoryPattern\UOWWithReporitoryPattern\obj\Debug\UOWWithReporitoryPattern.csproj.CopyComplete

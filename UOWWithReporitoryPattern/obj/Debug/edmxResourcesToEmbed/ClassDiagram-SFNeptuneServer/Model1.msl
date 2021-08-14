@@ -1,0 +1,2910 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="neptuneModel1StoreContainer" CdmEntityContainer="neptuneEntities1">
+    <EntitySetMapping Name="activesubscriptions">
+      <EntityTypeMapping TypeName="neptuneModel1.activesubscription">
+        <MappingFragment StoreEntitySet="activesubscriptions">
+          <ScalarProperty Name="C_Id" ColumnName="_Id" />
+          <ScalarProperty Name="C_CustomerId" ColumnName="_CustomerId" />
+          <ScalarProperty Name="C_ShipName" ColumnName="_ShipName" />
+          <ScalarProperty Name="C_NauProdID" ColumnName="_NauProdID" />
+          <ScalarProperty Name="C_IssuerID" ColumnName="_IssuerID" />
+          <ScalarProperty Name="C_Type" ColumnName="_Type" />
+          <ScalarProperty Name="C_ChartNumber" ColumnName="_ChartNumber" />
+          <ScalarProperty Name="C_Added" ColumnName="_Added" />
+          <ScalarProperty Name="C_Removed" ColumnName="_Removed" />
+          <ScalarProperty Name="C_Description" ColumnName="_Description" />
+          <ScalarProperty Name="C_ShipEd" ColumnName="_ShipEd" />
+          <ScalarProperty Name="C_CurrentEd" ColumnName="_CurrentEd" />
+          <ScalarProperty Name="C_Sent" ColumnName="_Sent" />
+          <ScalarProperty Name="C_Antall" ColumnName="_Antall" />
+          <ScalarProperty Name="C_SubStatus" ColumnName="_SubStatus" />
+          <ScalarProperty Name="C_eNTMSubCode" ColumnName="_eNTMSubCode" />
+          <ScalarProperty Name="C_CustNotifiedAdded" ColumnName="_CustNotifiedAdded" />
+          <ScalarProperty Name="C_CustNotifiedRemoved" ColumnName="_CustNotifiedRemoved" />
+          <ScalarProperty Name="C_UniqueVBValue" ColumnName="_UniqueVBValue" />
+          <ScalarProperty Name="C_EditionDate" ColumnName="_EditionDate" />
+          <ScalarProperty Name="C_VBEditionDate" ColumnName="_VBEditionDate" />
+          <ScalarProperty Name="C_TransferredDate" ColumnName="_TransferredDate" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="activesubscriptions_backup">
+      <EntityTypeMapping TypeName="neptuneModel1.activesubscriptions_backup">
+        <MappingFragment StoreEntitySet="activesubscriptions_backup">
+          <ScalarProperty Name="C_Id" ColumnName="_Id" />
+          <ScalarProperty Name="C_CustomerId" ColumnName="_CustomerId" />
+          <ScalarProperty Name="C_ShipName" ColumnName="_ShipName" />
+          <ScalarProperty Name="C_NauProdID" ColumnName="_NauProdID" />
+          <ScalarProperty Name="C_IssuerID" ColumnName="_IssuerID" />
+          <ScalarProperty Name="C_Type" ColumnName="_Type" />
+          <ScalarProperty Name="C_ChartNumber" ColumnName="_ChartNumber" />
+          <ScalarProperty Name="C_Added" ColumnName="_Added" />
+          <ScalarProperty Name="C_Removed" ColumnName="_Removed" />
+          <ScalarProperty Name="C_Description" ColumnName="_Description" />
+          <ScalarProperty Name="C_ShipEd" ColumnName="_ShipEd" />
+          <ScalarProperty Name="C_CurrentEd" ColumnName="_CurrentEd" />
+          <ScalarProperty Name="C_Sent" ColumnName="_Sent" />
+          <ScalarProperty Name="C_Antall" ColumnName="_Antall" />
+          <ScalarProperty Name="C_SubStatus" ColumnName="_SubStatus" />
+          <ScalarProperty Name="C_eNTMSubCode" ColumnName="_eNTMSubCode" />
+          <ScalarProperty Name="C_CustNotifiedAdded" ColumnName="_CustNotifiedAdded" />
+          <ScalarProperty Name="C_CustNotifiedRemoved" ColumnName="_CustNotifiedRemoved" />
+          <ScalarProperty Name="C_UniqueVBValue" ColumnName="_UniqueVBValue" />
+          <ScalarProperty Name="C_EditionDate" ColumnName="_EditionDate" />
+          <ScalarProperty Name="C_VBEditionDate" ColumnName="_VBEditionDate" />
+          <ScalarProperty Name="C_TransferredDate" ColumnName="_TransferredDate" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdpCoverageAreas">
+      <EntityTypeMapping TypeName="neptuneModel1.AdpCoverageArea">
+        <MappingFragment StoreEntitySet="AdpCoverageAreas">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="SortOrder" ColumnName="SortOrder" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdpItems">
+      <EntityTypeMapping TypeName="neptuneModel1.AdpItem">
+        <MappingFragment StoreEntitySet="AdpItems">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="AdpProductId" ColumnName="AdpProductId" />
+          <ScalarProperty Name="AdpCoverageAreaId" ColumnName="AdpCoverageAreaId" />
+          <ScalarProperty Name="NauProdId" ColumnName="NauProdId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdpProducts">
+      <EntityTypeMapping TypeName="neptuneModel1.AdpProduct">
+        <MappingFragment StoreEntitySet="AdpProducts">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdpSubscriptions">
+      <EntityTypeMapping TypeName="neptuneModel1.AdpSubscription">
+        <MappingFragment StoreEntitySet="AdpSubscriptions">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="AdpItemId" ColumnName="AdpItemId" />
+          <ScalarProperty Name="ExpiryDate" ColumnName="ExpiryDate" />
+          <ScalarProperty Name="StartupKey" ColumnName="StartupKey" />
+          <ScalarProperty Name="MainActivationKey" ColumnName="MainActivationKey" />
+          <ScalarProperty Name="BackupActivationKey" ColumnName="BackupActivationKey" />
+          <ScalarProperty Name="DateModified" ColumnName="DateModified" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CancelledNotices">
+      <EntityTypeMapping TypeName="neptuneModel1.CancelledNotice">
+        <MappingFragment StoreEntitySet="CancelledNotices">
+          <ScalarProperty Name="C_Id" ColumnName="_Id" />
+          <ScalarProperty Name="C_NMNumber" ColumnName="_NMNumber" />
+          <ScalarProperty Name="C_Year" ColumnName="_Year" />
+          <ScalarProperty Name="C_GeographicalArea" ColumnName="_GeographicalArea" />
+          <ScalarProperty Name="C_ChartNumber" ColumnName="_ChartNumber" />
+          <ScalarProperty Name="C_IssuerID" ColumnName="_IssuerID" />
+          <ScalarProperty Name="C_NTMId" ColumnName="_NTMId" />
+          <ScalarProperty Name="C_CancelledYear" ColumnName="_CancelledYear" />
+          <ScalarProperty Name="C_CancelledWeek" ColumnName="_CancelledWeek" />
+          <ScalarProperty Name="C_Added" ColumnName="_Added" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="neptuneModel1.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Countries">
+      <EntityTypeMapping TypeName="neptuneModel1.Country">
+        <MappingFragment StoreEntitySet="Countries">
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="PrimarCountryCode" ColumnName="PrimarCountryCode" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Currencies">
+      <EntityTypeMapping TypeName="neptuneModel1.Currency">
+        <MappingFragment StoreEntitySet="Currencies">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+          <ScalarProperty Name="FriendlyName" ColumnName="FriendlyName" />
+          <ScalarProperty Name="CurrencySign" ColumnName="CurrencySign" />
+          <ScalarProperty Name="AddedUtcDate" ColumnName="AddedUtcDate" />
+          <ScalarProperty Name="RemovedUtcDate" ColumnName="RemovedUtcDate" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="customers">
+      <EntityTypeMapping TypeName="neptuneModel1.customer">
+        <MappingFragment StoreEntitySet="customer">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="visma_id" ColumnName="visma_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="added" ColumnName="added" />
+          <ScalarProperty Name="expires" ColumnName="expires" />
+          <ScalarProperty Name="Port" ColumnName="Port" />
+          <ScalarProperty Name="added_year" ColumnName="added_year" />
+          <ScalarProperty Name="added_week" ColumnName="added_week" />
+          <ScalarProperty Name="C_neptunecode" ColumnName="_neptunecode" />
+          <ScalarProperty Name="authcode" ColumnName="authcode" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="encid" ColumnName="encid" />
+          <ScalarProperty Name="imo" ColumnName="imo" />
+          <ScalarProperty Name="ukhoSapNo" ColumnName="ukhoSapNo" />
+          <ScalarProperty Name="AllowedToOrder" ColumnName="AllowedToOrder" />
+          <ScalarProperty Name="CreditOk" ColumnName="CreditOk" />
+          <ScalarProperty Name="ukhoLicenseId" ColumnName="ukhoLicenseId" />
+          <ScalarProperty Name="VesselCompanyId" ColumnName="VesselCompanyId" />
+          <ScalarProperty Name="VesselCategoryId" ColumnName="VesselCategoryId" />
+          <ScalarProperty Name="CountryCode" ColumnName="CountryCode" />
+          <ScalarProperty Name="ChangedAt" ColumnName="ChangedAt" />
+          <ScalarProperty Name="maxSpeed" ColumnName="maxSpeed" />
+          <ScalarProperty Name="OrderInfoEmailAddresses" ColumnName="OrderInfoEmailAddresses" />
+          <ScalarProperty Name="NaviTabVersion" ColumnName="NaviTabVersion" />
+          <ScalarProperty Name="NaviPlannerVersion" ColumnName="NaviPlannerVersion" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+          <ScalarProperty Name="NaviLoggerVersion" ColumnName="NaviLoggerVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerEcdis">
+      <EntityTypeMapping TypeName="neptuneModel1.CustomerEcdi">
+        <MappingFragment StoreEntitySet="CustomerEcdis">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserPermit" ColumnName="UserPermit" />
+          <ScalarProperty Name="EcdisTypeId" ColumnName="EcdisTypeId" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="ChangedAt" ColumnName="ChangedAt" />
+          <ScalarProperty Name="PermitVersion" ColumnName="PermitVersion" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerEncVersions">
+      <EntityTypeMapping TypeName="neptuneModel1.CustomerEncVersion">
+        <MappingFragment StoreEntitySet="CustomerEncVersion">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="Provider" ColumnName="Provider" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerPermitsExtraLines">
+      <EntityTypeMapping TypeName="neptuneModel1.CustomerPermitsExtraLine">
+        <MappingFragment StoreEntitySet="CustomerPermitsExtraLines">
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="ExtraProductsAllowedId" ColumnName="ExtraProductsAllowedId" />
+          <ScalarProperty Name="EcdisTypeId" ColumnName="EcdisTypeId" />
+          <ScalarProperty Name="ExpiryUtcDate" ColumnName="ExpiryUtcDate" />
+          <ScalarProperty Name="PermitString" ColumnName="PermitString" />
+          <ScalarProperty Name="PermitDownloadedUtcDate" ColumnName="PermitDownloadedUtcDate" />
+          <ScalarProperty Name="PermitStatusId" ColumnName="PermitStatusId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerPermitsPriorToPays">
+      <EntityTypeMapping TypeName="neptuneModel1.CustomerPermitsPriorToPay">
+        <MappingFragment StoreEntitySet="CustomerPermitsPriorToPays">
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="EncCellId" ColumnName="EncCellId" />
+          <ScalarProperty Name="EcdisTypeId" ColumnName="EcdisTypeId" />
+          <ScalarProperty Name="ExpiryUtcDate" ColumnName="ExpiryUtcDate" />
+          <ScalarProperty Name="PermitString" ColumnName="PermitString" />
+          <ScalarProperty Name="EncOrderId" ColumnName="EncOrderId" />
+          <ScalarProperty Name="PermitDownloadedUtcDate" ColumnName="PermitDownloadedUtcDate" />
+          <ScalarProperty Name="PermitStatusId" ColumnName="PermitStatusId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomersInmarsatProviders">
+      <EntityTypeMapping TypeName="neptuneModel1.CustomersInmarsatProvider">
+        <MappingFragment StoreEntitySet="CustomersInmarsatProviders">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustPosProvId" ColumnName="CustPosProvId" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="DNID" ColumnName="DNID" />
+          <ScalarProperty Name="MemberNumber" ColumnName="MemberNumber" />
+          <ScalarProperty Name="TerminalId" ColumnName="TerminalId" />
+          <ScalarProperty Name="PollInterval" ColumnName="PollInterval" />
+          <ScalarProperty Name="IsActivated" ColumnName="IsActivated" />
+          <ScalarProperty Name="IsProgramming" ColumnName="IsProgramming" />
+          <ScalarProperty Name="LastModifiedUtc" ColumnName="LastModifiedUtc" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomersPositionProviders">
+      <EntityTypeMapping TypeName="neptuneModel1.CustomersPositionProvider">
+        <MappingFragment StoreEntitySet="CustomersPositionProviders">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="ProviderId" ColumnName="ProviderId" />
+          <ScalarProperty Name="LastReceivedUtc" ColumnName="LastReceivedUtc" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomVersions">
+      <EntityTypeMapping TypeName="neptuneModel1.CustomVersion">
+        <MappingFragment StoreEntitySet="CustomVersions">
+          <ScalarProperty Name="CustomVersionID" ColumnName="CustomVersionID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="Version" ColumnName="Version" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Data_EFS">
+      <EntityTypeMapping TypeName="neptuneModel1.Data_EFS">
+        <MappingFragment StoreEntitySet="Data_EFS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ChartNumber" ColumnName="ChartNumber" />
+          <ScalarProperty Name="NMNumber" ColumnName="NMNumber" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="Week" ColumnName="Week" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="GraphicsPath" ColumnName="GraphicsPath" />
+          <ScalarProperty Name="StartPage" ColumnName="StartPage" />
+          <ScalarProperty Name="EndPage" ColumnName="EndPage" />
+          <ScalarProperty Name="Added" ColumnName="Added" />
+          <ScalarProperty Name="IssuerID" ColumnName="IssuerID" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EcdisTypes">
+      <EntityTypeMapping TypeName="neptuneModel1.EcdisType">
+        <MappingFragment StoreEntitySet="EcdisType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EFS_PendingData">
+      <EntityTypeMapping TypeName="neptuneModel1.EFS_PendingData">
+        <MappingFragment StoreEntitySet="EFS_PendingData">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ChartNumber" ColumnName="ChartNumber" />
+          <ScalarProperty Name="NMNumber" ColumnName="NMNumber" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="Week" ColumnName="Week" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="StartPage" ColumnName="StartPage" />
+          <ScalarProperty Name="EndPage" ColumnName="EndPage" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EFS_PendingMail">
+      <EntityTypeMapping TypeName="neptuneModel1.EFS_PendingMail">
+        <MappingFragment StoreEntitySet="EFS_PendingMail">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="subject" ColumnName="subject" />
+          <ScalarProperty Name="path" ColumnName="path" />
+          <ScalarProperty Name="added" ColumnName="added" />
+          <ScalarProperty Name="parsed" ColumnName="parsed" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EncCellCustomerPaysAreas">
+      <EntityTypeMapping TypeName="neptuneModel1.EncCellCustomerPaysArea">
+        <MappingFragment StoreEntitySet="EncCellCustomerPaysAreas">
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="EncCellId" ColumnName="EncCellId" />
+          <ScalarProperty Name="PaysAreaStatusId" ColumnName="PaysAreaStatusId" />
+          <ScalarProperty Name="CustomerServiceTicketId" ColumnName="CustomerServiceTicketId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EncCellCustomerPaysAreasHistories">
+      <EntityTypeMapping TypeName="neptuneModel1.EncCellCustomerPaysAreasHistory">
+        <MappingFragment StoreEntitySet="EncCellCustomerPaysAreasHistory">
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="EncCellId" ColumnName="EncCellId" />
+          <ScalarProperty Name="UtcAuditDate" ColumnName="UtcAuditDate" />
+          <ScalarProperty Name="PaysAreaStatusId" ColumnName="PaysAreaStatusId" />
+          <ScalarProperty Name="CustomerServiceTicketId" ColumnName="CustomerServiceTicketId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EncCellCustomerPermits">
+      <EntityTypeMapping TypeName="neptuneModel1.EncCellCustomerPermit">
+        <MappingFragment StoreEntitySet="EncCellCustomerPermits">
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="EncCellId" ColumnName="EncCellId" />
+          <ScalarProperty Name="EcdisTypeId" ColumnName="EcdisTypeId" />
+          <ScalarProperty Name="ExpiryUtcDate" ColumnName="ExpiryUtcDate" />
+          <ScalarProperty Name="PermitString" ColumnName="PermitString" />
+          <ScalarProperty Name="EncOrderId" ColumnName="EncOrderId" />
+          <ScalarProperty Name="PermitDownloadedUtcDate" ColumnName="PermitDownloadedUtcDate" />
+          <ScalarProperty Name="PermitStatusId" ColumnName="PermitStatusId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EncCellCustomerPermitsHistories">
+      <EntityTypeMapping TypeName="neptuneModel1.EncCellCustomerPermitsHistory">
+        <MappingFragment StoreEntitySet="EncCellCustomerPermitsHistory">
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="EncCellId" ColumnName="EncCellId" />
+          <ScalarProperty Name="EcdisTypeId" ColumnName="EcdisTypeId" />
+          <ScalarProperty Name="UtcAuditDate" ColumnName="UtcAuditDate" />
+          <ScalarProperty Name="ExpiryUtcDate" ColumnName="ExpiryUtcDate" />
+          <ScalarProperty Name="PermitString" ColumnName="PermitString" />
+          <ScalarProperty Name="EncOrderId" ColumnName="EncOrderId" />
+          <ScalarProperty Name="PermitDownloadedUtcDate" ColumnName="PermitDownloadedUtcDate" />
+          <ScalarProperty Name="PermitStatusId" ColumnName="PermitStatusId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EncCellReplacements">
+      <EntityTypeMapping TypeName="neptuneModel1.EncCellReplacement">
+        <MappingFragment StoreEntitySet="EncCellReplacements">
+          <ScalarProperty Name="OriginalCellId" ColumnName="OriginalCellId" />
+          <ScalarProperty Name="ReplacementCellId" ColumnName="ReplacementCellId" />
+          <ScalarProperty Name="ReplacedDate" ColumnName="ReplacedDate" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EncCells">
+      <EntityTypeMapping TypeName="neptuneModel1.EncCell">
+        <MappingFragment StoreEntitySet="EncCells">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IssuerId" ColumnName="IssuerId" />
+          <ScalarProperty Name="CellName" ColumnName="CellName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="NavigationalPurpose" ColumnName="NavigationalPurpose" />
+          <ScalarProperty Name="BoundarySLat" ColumnName="BoundarySLat" />
+          <ScalarProperty Name="BoundaryWLon" ColumnName="BoundaryWLon" />
+          <ScalarProperty Name="BoundaryNLat" ColumnName="BoundaryNLat" />
+          <ScalarProperty Name="BoundaryELon" ColumnName="BoundaryELon" />
+          <ScalarProperty Name="PolygonPoints" ColumnName="PolygonPoints" />
+          <ScalarProperty Name="BaseEdition" ColumnName="BaseEdition" />
+          <ScalarProperty Name="BaseIssueDate" ColumnName="BaseIssueDate" />
+          <ScalarProperty Name="LatestUpdateNumber" ColumnName="LatestUpdateNumber" />
+          <ScalarProperty Name="RecordLastUpdated" ColumnName="RecordLastUpdated" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="GeometryData" ColumnName="GeometryData" />
+          <ScalarProperty Name="ReleaseDateUtc" ColumnName="ReleaseDateUtc" />
+          <ScalarProperty Name="CancelDateUtc" ColumnName="CancelDateUtc" />
+          <ScalarProperty Name="ReplaceDateUtc" ColumnName="ReplaceDateUtc" />
+          <ScalarProperty Name="Geography" ColumnName="Geography" />
+          <ScalarProperty Name="DownloadedBaseEdition" ColumnName="DownloadedBaseEdition" />
+          <ScalarProperty Name="DownloadedUpdateNumber" ColumnName="DownloadedUpdateNumber" />
+          <ScalarProperty Name="DownloadedUtcDate" ColumnName="DownloadedUtcDate" />
+          <ScalarProperty Name="Geometry" ColumnName="Geometry" />
+          <ScalarProperty Name="DownloadedIhoBaseEdition" ColumnName="DownloadedIhoBaseEdition" />
+          <ScalarProperty Name="DownloadedIhoUpdateNumber" ColumnName="DownloadedIhoUpdateNumber" />
+          <ScalarProperty Name="DownloadedIhoUtcDate" ColumnName="DownloadedIhoUtcDate" />
+          <ScalarProperty Name="IsForSale" ColumnName="IsForSale" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EncCellsHistories">
+      <EntityTypeMapping TypeName="neptuneModel1.EncCellsHistory">
+        <MappingFragment StoreEntitySet="EncCellsHistory">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UtcAuditDate" ColumnName="UtcAuditDate" />
+          <ScalarProperty Name="IssuerId" ColumnName="IssuerId" />
+          <ScalarProperty Name="CellName" ColumnName="CellName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="NavigationalPurpose" ColumnName="NavigationalPurpose" />
+          <ScalarProperty Name="BoundarySLat" ColumnName="BoundarySLat" />
+          <ScalarProperty Name="BoundaryWLon" ColumnName="BoundaryWLon" />
+          <ScalarProperty Name="BoundaryNLat" ColumnName="BoundaryNLat" />
+          <ScalarProperty Name="BoundaryELon" ColumnName="BoundaryELon" />
+          <ScalarProperty Name="PolygonPoints" ColumnName="PolygonPoints" />
+          <ScalarProperty Name="BaseEdition" ColumnName="BaseEdition" />
+          <ScalarProperty Name="BaseIssueDate" ColumnName="BaseIssueDate" />
+          <ScalarProperty Name="LatestUpdateNumber" ColumnName="LatestUpdateNumber" />
+          <ScalarProperty Name="RecordLastUpdated" ColumnName="RecordLastUpdated" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="GeometryData" ColumnName="GeometryData" />
+          <ScalarProperty Name="ReleaseDateUtc" ColumnName="ReleaseDateUtc" />
+          <ScalarProperty Name="CancelDateUtc" ColumnName="CancelDateUtc" />
+          <ScalarProperty Name="ReplaceDateUtc" ColumnName="ReplaceDateUtc" />
+          <ScalarProperty Name="Geography" ColumnName="Geography" />
+          <ScalarProperty Name="DownloadedBaseEdition" ColumnName="DownloadedBaseEdition" />
+          <ScalarProperty Name="DownloadedUpdateNumber" ColumnName="DownloadedUpdateNumber" />
+          <ScalarProperty Name="DownloadedUtcDate" ColumnName="DownloadedUtcDate" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EncCellsInEncProducts">
+      <EntityTypeMapping TypeName="neptuneModel1.EncCellsInEncProduct">
+        <MappingFragment StoreEntitySet="EncCellsInEncProduct">
+          <ScalarProperty Name="EncProductId" ColumnName="EncProductId" />
+          <ScalarProperty Name="EncCellId" ColumnName="EncCellId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EncFileInfos">
+      <EntityTypeMapping TypeName="neptuneModel1.EncFileInfo">
+        <MappingFragment StoreEntitySet="EncFileInfos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CellName" ColumnName="CellName" />
+          <ScalarProperty Name="EDTN" ColumnName="EDTN" />
+          <ScalarProperty Name="UPDN" ColumnName="UPDN" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="BlobStorageFilePath" ColumnName="BlobStorageFilePath" />
+          <ScalarProperty Name="UploadedDate" ColumnName="UploadedDate" />
+          <ScalarProperty Name="IssuerId" ColumnName="IssuerId" />
+          <ScalarProperty Name="CountryCode" ColumnName="CountryCode" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EncOrderHeaders">
+      <EntityTypeMapping TypeName="neptuneModel1.EncOrderHeader">
+        <MappingFragment StoreEntitySet="EncOrderHeaders">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="CustomerServiceTicketId" ColumnName="CustomerServiceTicketId" />
+          <ScalarProperty Name="OrderedByEmail" ColumnName="OrderedByEmail" />
+          <ScalarProperty Name="UtcCreatedAt" ColumnName="UtcCreatedAt" />
+          <ScalarProperty Name="InvoiceNumber" ColumnName="InvoiceNumber" />
+          <ScalarProperty Name="InvoiceRef" ColumnName="InvoiceRef" />
+          <ScalarProperty Name="InvoiceComment" ColumnName="InvoiceComment" />
+          <ScalarProperty Name="InvoiceBy" ColumnName="InvoiceBy" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EncOrderHeadersHistories">
+      <EntityTypeMapping TypeName="neptuneModel1.EncOrderHeadersHistory">
+        <MappingFragment StoreEntitySet="EncOrderHeadersHistory">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UtcAuditDate" ColumnName="UtcAuditDate" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="CustomerServiceTicketId" ColumnName="CustomerServiceTicketId" />
+          <ScalarProperty Name="OrderedByEmail" ColumnName="OrderedByEmail" />
+          <ScalarProperty Name="UtcCreatedAt" ColumnName="UtcCreatedAt" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EncOrders">
+      <EntityTypeMapping TypeName="neptuneModel1.EncOrder">
+        <MappingFragment StoreEntitySet="EncOrders">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EncOrderTypeId" ColumnName="EncOrderTypeId" />
+          <ScalarProperty Name="IssuersEncOrderHeaderId" ColumnName="IssuersEncOrderHeaderId" />
+          <ScalarProperty Name="ExpiryUtcDate" ColumnName="ExpiryUtcDate" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="EncOrderStatusId" ColumnName="EncOrderStatusId" />
+          <ScalarProperty Name="EncProductId" ColumnName="EncProductId" />
+          <ScalarProperty Name="IsPaysPlus" ColumnName="IsPaysPlus" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EncOrdersHistories">
+      <EntityTypeMapping TypeName="neptuneModel1.EncOrdersHistory">
+        <MappingFragment StoreEntitySet="EncOrdersHistory">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UtcAuditDate" ColumnName="UtcAuditDate" />
+          <ScalarProperty Name="EncOrderTypeId" ColumnName="EncOrderTypeId" />
+          <ScalarProperty Name="IssuersEncOrderHeaderId" ColumnName="IssuersEncOrderHeaderId" />
+          <ScalarProperty Name="ExpiryUtcDate" ColumnName="ExpiryUtcDate" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="EncOrderStatusId" ColumnName="EncOrderStatusId" />
+          <ScalarProperty Name="EncProductId" ColumnName="EncProductId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EncOrderStatus">
+      <EntityTypeMapping TypeName="neptuneModel1.EncOrderStatu">
+        <MappingFragment StoreEntitySet="EncOrderStatus">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EncOrderTypes">
+      <EntityTypeMapping TypeName="neptuneModel1.EncOrderType">
+        <MappingFragment StoreEntitySet="EncOrderType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EncProductPrices">
+      <EntityTypeMapping TypeName="neptuneModel1.EncProductPrice">
+        <MappingFragment StoreEntitySet="EncProductPrices">
+          <ScalarProperty Name="EncProductId" ColumnName="EncProductId" />
+          <ScalarProperty Name="EncOrderTypeId" ColumnName="EncOrderTypeId" />
+          <ScalarProperty Name="ValidFromUtcDate" ColumnName="ValidFromUtcDate" />
+          <ScalarProperty Name="ValidToUtcDateTo" ColumnName="ValidToUtcDateTo" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EncProducts">
+      <EntityTypeMapping TypeName="neptuneModel1.EncProduct">
+        <MappingFragment StoreEntitySet="EncProducts">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ValidLicensePeriod" ColumnName="ValidLicensePeriod" />
+          <ScalarProperty Name="IsForSale" ColumnName="IsForSale" />
+          <ScalarProperty Name="EncProductTypeId" ColumnName="EncProductTypeId" />
+          <ScalarProperty Name="IssuerId" ColumnName="IssuerId" />
+          <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+          <ScalarProperty Name="PriceBand" ColumnName="PriceBand" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EncProductTypes">
+      <EntityTypeMapping TypeName="neptuneModel1.EncProductType">
+        <MappingFragment StoreEntitySet="EncProductType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EncVersions">
+      <EntityTypeMapping TypeName="neptuneModel1.EncVersion">
+        <MappingFragment StoreEntitySet="EncVersion">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Version" ColumnName="Version" />
+          <ScalarProperty Name="CustomerEncVersionId" ColumnName="CustomerEncVersionId" />
+          <ScalarProperty Name="EncId" ColumnName="EncId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExchangeRates">
+      <EntityTypeMapping TypeName="neptuneModel1.ExchangeRate">
+        <MappingFragment StoreEntitySet="ExchangeRates">
+          <ScalarProperty Name="BaseCurrency" ColumnName="BaseCurrency" />
+          <ScalarProperty Name="ForeignCurrency" ColumnName="ForeignCurrency" />
+          <ScalarProperty Name="Rate" ColumnName="Rate" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExtraProductsAlloweds">
+      <EntityTypeMapping TypeName="neptuneModel1.ExtraProductsAllowed">
+        <MappingFragment StoreEntitySet="ExtraProductsAllowed">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="IssuerId" ColumnName="IssuerId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FagbokforlagetCatalogs">
+      <EntityTypeMapping TypeName="neptuneModel1.FagbokforlagetCatalog">
+        <MappingFragment StoreEntitySet="FagbokforlagetCatalog">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProdId" ColumnName="ProdId" />
+          <ScalarProperty Name="NauProdId" ColumnName="NauProdId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="MediaTypeId" ColumnName="MediaTypeId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="PublisherName" ColumnName="PublisherName" />
+          <ScalarProperty Name="AuthorName" ColumnName="AuthorName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="files">
+      <EntityTypeMapping TypeName="neptuneModel1.file">
+        <MappingFragment StoreEntitySet="files">
+          <ScalarProperty Name="fid" ColumnName="fid" />
+          <ScalarProperty Name="sid" ColumnName="sid" />
+          <ScalarProperty Name="pid" ColumnName="pid" />
+          <ScalarProperty Name="starttime" ColumnName="starttime" />
+          <ScalarProperty Name="endtime" ColumnName="endtime" />
+          <ScalarProperty Name="filename" ColumnName="filename" />
+          <ScalarProperty Name="filesize" ColumnName="filesize" />
+          <ScalarProperty Name="resumefrom" ColumnName="resumefrom" />
+          <ScalarProperty Name="speed" ColumnName="speed" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FlatFeeZones">
+      <EntityTypeMapping TypeName="neptuneModel1.FlatFeeZone">
+        <MappingFragment StoreEntitySet="FlatFeeZones">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Geometry" ColumnName="Geometry" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FrequentlyUsedEncProducts">
+      <EntityTypeMapping TypeName="neptuneModel1.FrequentlyUsedEncProduct">
+        <MappingFragment StoreEntitySet="FrequentlyUsedEncProducts">
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="EncProductId" ColumnName="EncProductId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ImoCatalogs">
+      <EntityTypeMapping TypeName="neptuneModel1.ImoCatalog">
+        <MappingFragment StoreEntitySet="ImoCatalog">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProdId" ColumnName="ProdId" />
+          <ScalarProperty Name="NauProdId" ColumnName="NauProdId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="MediaTypeId" ColumnName="MediaTypeId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ImoPublicationCorrections">
+      <EntityTypeMapping TypeName="neptuneModel1.ImoPublicationCorrection">
+        <MappingFragment StoreEntitySet="ImoPublicationCorrection">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProdId" ColumnName="ProdId" />
+          <ScalarProperty Name="CorrectionDocId" ColumnName="CorrectionDocId" />
+          <ScalarProperty Name="Volume" ColumnName="Volume" />
+          <ScalarProperty Name="PublicationStartPage" ColumnName="PublicationStartPage" />
+          <ScalarProperty Name="PublicationEndPage" ColumnName="PublicationEndPage" />
+          <ScalarProperty Name="CorrectionStartPage" ColumnName="CorrectionStartPage" />
+          <ScalarProperty Name="CorrectionEndPage" ColumnName="CorrectionEndPage" />
+          <ScalarProperty Name="PublicationActualStartPage" ColumnName="PublicationActualStartPage" />
+          <ScalarProperty Name="PublicationActualEndPage" ColumnName="PublicationActualEndPage" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ImrayCatalogs">
+      <EntityTypeMapping TypeName="neptuneModel1.ImrayCatalog">
+        <MappingFragment StoreEntitySet="ImrayCatalog">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProdId" ColumnName="ProdId" />
+          <ScalarProperty Name="NauProdId" ColumnName="NauProdId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="MediaTypeId" ColumnName="MediaTypeId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InmarsatProviderHistories">
+      <EntityTypeMapping TypeName="neptuneModel1.InmarsatProviderHistory">
+        <MappingFragment StoreEntitySet="InmarsatProviderHistory">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="DNID" ColumnName="DNID" />
+          <ScalarProperty Name="MemberNumber" ColumnName="MemberNumber" />
+          <ScalarProperty Name="TerminalId" ColumnName="TerminalId" />
+          <ScalarProperty Name="PollInterval" ColumnName="PollInterval" />
+          <ScalarProperty Name="AuditUtcDate" ColumnName="AuditUtcDate" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="issuers">
+      <EntityTypeMapping TypeName="neptuneModel1.issuer">
+        <MappingFragment StoreEntitySet="issuers">
+          <ScalarProperty Name="C_Id" ColumnName="_Id" />
+          <ScalarProperty Name="C_Issuer" ColumnName="_Issuer" />
+          <ScalarProperty Name="C_IssuerShortName" ColumnName="_IssuerShortName" />
+          <ScalarProperty Name="C_Active" ColumnName="_Active" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IssuersAvailableToCustomers">
+      <EntityTypeMapping TypeName="neptuneModel1.IssuersAvailableToCustomer">
+        <MappingFragment StoreEntitySet="IssuersAvailableToCustomer">
+          <ScalarProperty Name="IssuerId" ColumnName="IssuerId" />
+          <ScalarProperty Name="CustomerGroupId" ColumnName="CustomerGroupId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IssuersCustomerInfoes">
+      <EntityTypeMapping TypeName="neptuneModel1.IssuersCustomerInfo">
+        <MappingFragment StoreEntitySet="IssuersCustomerInfo">
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="IssuerId" ColumnName="IssuerId" />
+          <ScalarProperty Name="IssuersCustomerId" ColumnName="IssuersCustomerId" />
+          <ScalarProperty Name="IssuersAdditionalInfo" ColumnName="IssuersAdditionalInfo" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="ChangedAt" ColumnName="ChangedAt" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IssuersEncOrderHeaders">
+      <EntityTypeMapping TypeName="neptuneModel1.IssuersEncOrderHeader">
+        <MappingFragment StoreEntitySet="IssuersEncOrderHeaders">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EncOrderHeaderId" ColumnName="EncOrderHeaderId" />
+          <ScalarProperty Name="IssuerId" ColumnName="IssuerId" />
+          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+          <ScalarProperty Name="CorrelationId" ColumnName="CorrelationId" />
+          <ScalarProperty Name="IssuersEncOrderHeaderStatusId" ColumnName="IssuersEncOrderHeaderStatusId" />
+          <ScalarProperty Name="CanPlaceOrderUtcDate" ColumnName="CanPlaceOrderUtcDate" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IssuersEncOrderHeadersHistories">
+      <EntityTypeMapping TypeName="neptuneModel1.IssuersEncOrderHeadersHistory">
+        <MappingFragment StoreEntitySet="IssuersEncOrderHeadersHistory">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UtcAuditDate" ColumnName="UtcAuditDate" />
+          <ScalarProperty Name="EncOrderHeaderId" ColumnName="EncOrderHeaderId" />
+          <ScalarProperty Name="IssuerId" ColumnName="IssuerId" />
+          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+          <ScalarProperty Name="IssuersEncOrderHeaderStatusId" ColumnName="IssuersEncOrderHeaderStatusId" />
+          <ScalarProperty Name="CanPlaceOrderUtcDate" ColumnName="CanPlaceOrderUtcDate" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IssuersEncOrderHeaderStatus">
+      <EntityTypeMapping TypeName="neptuneModel1.IssuersEncOrderHeaderStatu">
+        <MappingFragment StoreEntitySet="IssuersEncOrderHeaderStatus">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IssuersVesselCompanyInfoes">
+      <EntityTypeMapping TypeName="neptuneModel1.IssuersVesselCompanyInfo">
+        <MappingFragment StoreEntitySet="IssuersVesselCompanyInfo">
+          <ScalarProperty Name="VesselCompanyId" ColumnName="VesselCompanyId" />
+          <ScalarProperty Name="IssuerId" ColumnName="IssuerId" />
+          <ScalarProperty Name="IssuersVesselCompanyId" ColumnName="IssuersVesselCompanyId" />
+          <ScalarProperty Name="IssuersAdditionalInfo" ColumnName="IssuersAdditionalInfo" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="ChangedAt" ColumnName="ChangedAt" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Languages">
+      <EntityTypeMapping TypeName="neptuneModel1.Language">
+        <MappingFragment StoreEntitySet="Language">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LogBookCatalogs">
+      <EntityTypeMapping TypeName="neptuneModel1.LogBookCatalog">
+        <MappingFragment StoreEntitySet="LogBookCatalog">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProdId" ColumnName="ProdId" />
+          <ScalarProperty Name="NauProdId" ColumnName="NauProdId" />
+          <ScalarProperty Name="LogBookId" ColumnName="LogBookId" />
+          <ScalarProperty Name="ReportTemplateFileName" ColumnName="ReportTemplateFileName" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="MediaTypeId" ColumnName="MediaTypeId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="PublisherName" ColumnName="PublisherName" />
+          <ScalarProperty Name="AuthorName" ColumnName="AuthorName" />
+          <ScalarProperty Name="JsonString" ColumnName="JsonString" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="SortOrder" ColumnName="SortOrder" />
+          <ScalarProperty Name="DefaultSectionId" ColumnName="DefaultSectionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LogEntries">
+      <EntityTypeMapping TypeName="neptuneModel1.LogEntry">
+        <MappingFragment StoreEntitySet="LogEntries">
+          <ScalarProperty Name="LogEntryID" ColumnName="LogEntryID" />
+          <ScalarProperty Name="ServerID" ColumnName="ServerID" />
+          <ScalarProperty Name="LogLevel" ColumnName="LogLevel" />
+          <ScalarProperty Name="Entry" ColumnName="Entry" />
+          <ScalarProperty Name="Handled" ColumnName="Handled" />
+          <ScalarProperty Name="CreationTime" ColumnName="CreationTime" />
+          <ScalarProperty Name="HandledBy" ColumnName="HandledBy" />
+          <ScalarProperty Name="HandledAt" ColumnName="HandledAt" />
+          <ScalarProperty Name="IsPending" ColumnName="IsPending" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MarpolDatas">
+      <EntityTypeMapping TypeName="neptuneModel1.MarpolData">
+        <MappingFragment StoreEntitySet="MarpolData">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="CategoryFriendlyName" ColumnName="CategoryFriendlyName" />
+          <ScalarProperty Name="RegionName" ColumnName="RegionName" />
+          <ScalarProperty Name="RegionFriendlyName" ColumnName="RegionFriendlyName" />
+          <ScalarProperty Name="RegionDisplayName" ColumnName="RegionDisplayName" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="FileNameWithBlobPath" ColumnName="FileNameWithBlobPath" />
+          <ScalarProperty Name="AddedUtcDate" ColumnName="AddedUtcDate" />
+          <ScalarProperty Name="LastDownloadUtcDate" ColumnName="LastDownloadUtcDate" />
+          <ScalarProperty Name="RemovedUtcDate" ColumnName="RemovedUtcDate" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MediaTypes">
+      <EntityTypeMapping TypeName="neptuneModel1.MediaType">
+        <MappingFragment StoreEntitySet="MediaType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MiscDownloads">
+      <EntityTypeMapping TypeName="neptuneModel1.MiscDownload">
+        <MappingFragment StoreEntitySet="MiscDownloads">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FilePath" ColumnName="FilePath" />
+          <ScalarProperty Name="TypeDescription" ColumnName="TypeDescription" />
+          <ScalarProperty Name="LastUpdatedDate" ColumnName="LastUpdatedDate" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaviLogCustomerDataSyncInformations">
+      <EntityTypeMapping TypeName="neptuneModel1.NaviLogCustomerDataSyncInformation">
+        <MappingFragment StoreEntitySet="NaviLogCustomerDataSyncInformation">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="DeviceNumber" ColumnName="DeviceNumber" />
+          <ScalarProperty Name="DataUploadDate" ColumnName="DataUploadDate" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaviLogLogBookRecords">
+      <EntityTypeMapping TypeName="neptuneModel1.NaviLogLogBookRecord">
+        <MappingFragment StoreEntitySet="NaviLogLogBookRecord">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EntryDate" ColumnName="EntryDate" />
+          <ScalarProperty Name="LogBookId" ColumnName="LogBookId" />
+          <ScalarProperty Name="SectionId" ColumnName="SectionId" />
+          <ScalarProperty Name="CreatedById" ColumnName="CreatedById" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="ModifiedById" ColumnName="ModifiedById" />
+          <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+          <ScalarProperty Name="Entry" ColumnName="Entry" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="DoneAtLatitude" ColumnName="DoneAtLatitude" />
+          <ScalarProperty Name="DoneAtLongitude" ColumnName="DoneAtLongitude" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaviLogPublicationDocumentDetails">
+      <EntityTypeMapping TypeName="neptuneModel1.NaviLogPublicationDocumentDetail">
+        <MappingFragment StoreEntitySet="NaviLogPublicationDocumentDetail">
+          <ScalarProperty Name="PublicationDocumentId" ColumnName="PublicationDocumentId" />
+          <ScalarProperty Name="SectionId" ColumnName="SectionId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="SortOrder" ColumnName="SortOrder" />
+          <ScalarProperty Name="TemplateName" ColumnName="TemplateName" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaviLogUserInfoes">
+      <EntityTypeMapping TypeName="neptuneModel1.NaviLogUserInfo">
+        <MappingFragment StoreEntitySet="NaviLogUserInfo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="AutoLoggedInEnabled" ColumnName="AutoLoggedInEnabled" />
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsAdministrator" ColumnName="IsAdministrator" />
+          <ScalarProperty Name="IsAllowedToOrder" ColumnName="IsAllowedToOrder" />
+          <ScalarProperty Name="LastLogin" ColumnName="LastLogin" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="RememberMe" ColumnName="RememberMe" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="ApplicationConfiguration" ColumnName="ApplicationConfiguration" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="DeviceNumber" ColumnName="DeviceNumber" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaviManagerCustomerGroups">
+      <EntityTypeMapping TypeName="neptuneModel1.NaviManagerCustomerGroup">
+        <MappingFragment StoreEntitySet="NaviManagerCustomerGroups">
+          <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="CustomerGroup" ColumnName="CustomerGroup" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaviManagerPasswordResetCodes">
+      <EntityTypeMapping TypeName="neptuneModel1.NaviManagerPasswordResetCode">
+        <MappingFragment StoreEntitySet="NaviManagerPasswordResetCodes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="IsValid" ColumnName="IsValid" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaviManagerThresholdConfigs">
+      <EntityTypeMapping TypeName="neptuneModel1.NaviManagerThresholdConfig">
+        <MappingFragment StoreEntitySet="NaviManagerThresholdConfig">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+          <ScalarProperty Name="ThresholdTypeId" ColumnName="ThresholdTypeId" />
+          <ScalarProperty Name="LowerLimit" ColumnName="LowerLimit" />
+          <ScalarProperty Name="UpperLimit" ColumnName="UpperLimit" />
+          <ScalarProperty Name="IsValid" ColumnName="IsValid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaviManagerThresholdTypes">
+      <EntityTypeMapping TypeName="neptuneModel1.NaviManagerThresholdType">
+        <MappingFragment StoreEntitySet="NaviManagerThresholdTypes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Quantifier" ColumnName="Quantifier" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaviManagerUsers">
+      <EntityTypeMapping TypeName="neptuneModel1.NaviManagerUser">
+        <MappingFragment StoreEntitySet="NaviManagerUsers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PasswordEncrypted" ColumnName="PasswordEncrypted" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+          <ScalarProperty Name="CustomerGroupId" ColumnName="CustomerGroupId" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="CreatedByUserId" ColumnName="CreatedByUserId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaviManagerUserTokens">
+      <EntityTypeMapping TypeName="neptuneModel1.NaviManagerUserToken">
+        <MappingFragment StoreEntitySet="NaviManagerUserTokens">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Token" ColumnName="Token" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaviTabBackupBackgroundImages">
+      <EntityTypeMapping TypeName="neptuneModel1.NaviTabBackupBackgroundImage">
+        <MappingFragment StoreEntitySet="NaviTabBackupBackgroundImage">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CutomerInfoId" ColumnName="CutomerInfoId" />
+          <ScalarProperty Name="BackgroundImageId" ColumnName="BackgroundImageId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaviTabBackupCorrections">
+      <EntityTypeMapping TypeName="neptuneModel1.NaviTabBackupCorrection">
+        <MappingFragment StoreEntitySet="NaviTabBackupCorrection">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerInfoId" ColumnName="CustomerInfoId" />
+          <ScalarProperty Name="BackupId" ColumnName="BackupId" />
+          <ScalarProperty Name="PublicaitonDocumentId" ColumnName="PublicaitonDocumentId" />
+          <ScalarProperty Name="CorrectionDocStartPage" ColumnName="CorrectionDocStartPage" />
+          <ScalarProperty Name="CorrectionDocEndPage" ColumnName="CorrectionDocEndPage" />
+          <ScalarProperty Name="OriginalDocStartPage" ColumnName="OriginalDocStartPage" />
+          <ScalarProperty Name="OriginalDocEndPage" ColumnName="OriginalDocEndPage" />
+          <ScalarProperty Name="Volume" ColumnName="Volume" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaviTabBackupCustomerInfoes">
+      <EntityTypeMapping TypeName="neptuneModel1.NaviTabBackupCustomerInfo">
+        <MappingFragment StoreEntitySet="NaviTabBackupCustomerInfo">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="DeviceNumber" ColumnName="DeviceNumber" />
+          <ScalarProperty Name="BackupTakenDate" ColumnName="BackupTakenDate" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaviTabBackupEReaderUsers">
+      <EntityTypeMapping TypeName="neptuneModel1.NaviTabBackupEReaderUser">
+        <MappingFragment StoreEntitySet="NaviTabBackupEReaderUser">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerInfoId" ColumnName="CustomerInfoId" />
+          <ScalarProperty Name="BackupId" ColumnName="BackupId" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="RememberMe" ColumnName="RememberMe" />
+          <ScalarProperty Name="AutoLoggedInEnabled" ColumnName="AutoLoggedInEnabled" />
+          <ScalarProperty Name="IsAdministrator" ColumnName="IsAdministrator" />
+          <ScalarProperty Name="IsAllowedToOrder" ColumnName="IsAllowedToOrder" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="LastLogin" ColumnName="LastLogin" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaviTabBackupNaviTabInformations">
+      <EntityTypeMapping TypeName="neptuneModel1.NaviTabBackupNaviTabInformation">
+        <MappingFragment StoreEntitySet="NaviTabBackupNaviTabInformation">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerInfoId" ColumnName="CustomerInfoId" />
+          <ScalarProperty Name="BackupId" ColumnName="BackupId" />
+          <ScalarProperty Name="DateInstalled" ColumnName="DateInstalled" />
+          <ScalarProperty Name="VersionNo" ColumnName="VersionNo" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaviTabBackupPdfAttachments">
+      <EntityTypeMapping TypeName="neptuneModel1.NaviTabBackupPdfAttachment">
+        <MappingFragment StoreEntitySet="NaviTabBackupPdfAttachment">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerInfoId" ColumnName="CustomerInfoId" />
+          <ScalarProperty Name="BackupId" ColumnName="BackupId" />
+          <ScalarProperty Name="LastViewedPage" ColumnName="LastViewedPage" />
+          <ScalarProperty Name="LastUsedToolType" ColumnName="LastUsedToolType" />
+          <ScalarProperty Name="LastUsedLayout" ColumnName="LastUsedLayout" />
+          <ScalarProperty Name="LastUsedAnnotationColor" ColumnName="LastUsedAnnotationColor" />
+          <ScalarProperty Name="LastUsedHighlightColor" ColumnName="LastUsedHighlightColor" />
+          <ScalarProperty Name="LastUsedZoomLevel" ColumnName="LastUsedZoomLevel" />
+          <ScalarProperty Name="IsInkToolAsBrush" ColumnName="IsInkToolAsBrush" />
+          <ScalarProperty Name="AnnotationXml" ColumnName="AnnotationXml" />
+          <ScalarProperty Name="BookmarkText" ColumnName="BookmarkText" />
+          <ScalarProperty Name="BookmarkTextXml" ColumnName="BookmarkTextXml" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastModifiedDate" ColumnName="LastModifiedDate" />
+          <ScalarProperty Name="PublicaitonId" ColumnName="PublicaitonId" />
+          <ScalarProperty Name="PublicationDocId" ColumnName="PublicationDocId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="NauProdId" ColumnName="NauProdId" />
+          <ScalarProperty Name="ProdId" ColumnName="ProdId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaviTabBackupPendingDownloads">
+      <EntityTypeMapping TypeName="neptuneModel1.NaviTabBackupPendingDownload">
+        <MappingFragment StoreEntitySet="NaviTabBackupPendingDownload">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerInfoId" ColumnName="CustomerInfoId" />
+          <ScalarProperty Name="BackupId" ColumnName="BackupId" />
+          <ScalarProperty Name="SessionKey" ColumnName="SessionKey" />
+          <ScalarProperty Name="PackageKey" ColumnName="PackageKey" />
+          <ScalarProperty Name="ServerHost" ColumnName="ServerHost" />
+          <ScalarProperty Name="ServerPort" ColumnName="ServerPort" />
+          <ScalarProperty Name="NumberOfFilesDownloaded" ColumnName="NumberOfFilesDownloaded" />
+          <ScalarProperty Name="DownloadSize" ColumnName="DownloadSize" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="DownloadDate" ColumnName="DownloadDate" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaviTabBackupPendingPublicationDownloads">
+      <EntityTypeMapping TypeName="neptuneModel1.NaviTabBackupPendingPublicationDownload">
+        <MappingFragment StoreEntitySet="NaviTabBackupPendingPublicationDownload">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerInfoId" ColumnName="CustomerInfoId" />
+          <ScalarProperty Name="BackupId" ColumnName="BackupId" />
+          <ScalarProperty Name="PendingDownloadId" ColumnName="PendingDownloadId" />
+          <ScalarProperty Name="PublicationId" ColumnName="PublicationId" />
+          <ScalarProperty Name="PublicationNauProdId" ColumnName="PublicationNauProdId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaviTabBackupPublicaitonCatalogInfoes">
+      <EntityTypeMapping TypeName="neptuneModel1.NaviTabBackupPublicaitonCatalogInfo">
+        <MappingFragment StoreEntitySet="NaviTabBackupPublicaitonCatalogInfo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerInfoId" ColumnName="CustomerInfoId" />
+          <ScalarProperty Name="MyFavoriteNauProdIdList" ColumnName="MyFavoriteNauProdIdList" />
+          <ScalarProperty Name="IsJustUpdatedNauProdIdList" ColumnName="IsJustUpdatedNauProdIdList" />
+          <ScalarProperty Name="IsMarkedForAutoUpdateNauProdIdList" ColumnName="IsMarkedForAutoUpdateNauProdIdList" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaviTabBackupPublicationDocuments">
+      <EntityTypeMapping TypeName="neptuneModel1.NaviTabBackupPublicationDocument">
+        <MappingFragment StoreEntitySet="NaviTabBackupPublicationDocument">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerInfoId" ColumnName="CustomerInfoId" />
+          <ScalarProperty Name="BackupId" ColumnName="BackupId" />
+          <ScalarProperty Name="NauProdId" ColumnName="NauProdId" />
+          <ScalarProperty Name="ProdId" ColumnName="ProdId" />
+          <ScalarProperty Name="PublicationId" ColumnName="PublicationId" />
+          <ScalarProperty Name="MaxPrintCount" ColumnName="MaxPrintCount" />
+          <ScalarProperty Name="MaxPercentagePrintAllowed" ColumnName="MaxPercentagePrintAllowed" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="ParentDocId" ColumnName="ParentDocId" />
+          <ScalarProperty Name="PublicationDownloadDate" ColumnName="PublicationDownloadDate" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaviTabBackupSearchSuggestions">
+      <EntityTypeMapping TypeName="neptuneModel1.NaviTabBackupSearchSuggestion">
+        <MappingFragment StoreEntitySet="NaviTabBackupSearchSuggestion">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerInfoId" ColumnName="CustomerInfoId" />
+          <ScalarProperty Name="BackupId" ColumnName="BackupId" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="Rank" ColumnName="Rank" />
+          <ScalarProperty Name="LastSearched" ColumnName="LastSearched" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaviTabBackupServerInformations">
+      <EntityTypeMapping TypeName="neptuneModel1.NaviTabBackupServerInformation">
+        <MappingFragment StoreEntitySet="NaviTabBackupServerInformation">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerInfoId" ColumnName="CustomerInfoId" />
+          <ScalarProperty Name="BackupId" ColumnName="BackupId" />
+          <ScalarProperty Name="ServerHost" ColumnName="ServerHost" />
+          <ScalarProperty Name="ServerPort" ColumnName="ServerPort" />
+          <ScalarProperty Name="AuthKey" ColumnName="AuthKey" />
+          <ScalarProperty Name="VesselName" ColumnName="VesselName" />
+          <ScalarProperty Name="CatalogPackageFolder" ColumnName="CatalogPackageFolder" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="DeviceSerialNumber" ColumnName="DeviceSerialNumber" />
+          <ScalarProperty Name="DeviceNumber" ColumnName="DeviceNumber" />
+          <ScalarProperty Name="HardwareId" ColumnName="HardwareId" />
+          <ScalarProperty Name="Timeout" ColumnName="Timeout" />
+          <ScalarProperty Name="RetryInterval" ColumnName="RetryInterval" />
+          <ScalarProperty Name="IsNaviTabAutoUpgradeOn" ColumnName="IsNaviTabAutoUpgradeOn" />
+          <ScalarProperty Name="NaviTabAutoUpgradeCheckDate" ColumnName="NaviTabAutoUpgradeCheckDate" />
+          <ScalarProperty Name="UnorderedSearchResultCount" ColumnName="UnorderedSearchResultCount" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nept2_admin_users">
+      <EntityTypeMapping TypeName="neptuneModel1.nept2_admin_users">
+        <MappingFragment StoreEntitySet="nept2_admin_users">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="displayname" ColumnName="displayname" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="admin" ColumnName="admin" />
+          <ScalarProperty Name="lastlogin" ColumnName="lastlogin" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nept2_customversions">
+      <EntityTypeMapping TypeName="neptuneModel1.nept2_customversions">
+        <MappingFragment StoreEntitySet="nept2_customversions">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="customer" ColumnName="customer" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nept2_files">
+      <EntityTypeMapping TypeName="neptuneModel1.nept2_files">
+        <MappingFragment StoreEntitySet="nept2_files">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sessionid" ColumnName="sessionid" />
+          <ScalarProperty Name="start" ColumnName="start" />
+          <ScalarProperty Name="finished" ColumnName="finished" />
+          <ScalarProperty Name="ip" ColumnName="ip" />
+          <ScalarProperty Name="customer" ColumnName="customer" />
+          <ScalarProperty Name="filename" ColumnName="filename" />
+          <ScalarProperty Name="filesize" ColumnName="filesize" />
+          <ScalarProperty Name="resumefrom" ColumnName="resumefrom" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nept2_fredrik_location">
+      <EntityTypeMapping TypeName="neptuneModel1.nept2_fredrik_location">
+        <MappingFragment StoreEntitySet="nept2_fredrik_location">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="loc" ColumnName="loc" />
+          <ScalarProperty Name="added" ColumnName="added" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nept2_package">
+      <EntityTypeMapping TypeName="neptuneModel1.nept2_package">
+        <MappingFragment StoreEntitySet="nept2_package">
+          <ScalarProperty Name="sessionid" ColumnName="sessionid" />
+          <ScalarProperty Name="customerid" ColumnName="customerid" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="arguments" ColumnName="arguments" />
+          <ScalarProperty Name="size" ColumnName="size" />
+          <ScalarProperty Name="files" ColumnName="files" />
+          <ScalarProperty Name="ntms" ColumnName="ntms" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nept2_server">
+      <EntityTypeMapping TypeName="neptuneModel1.nept2_server">
+        <MappingFragment StoreEntitySet="nept2_server">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="program" ColumnName="program" />
+          <ScalarProperty Name="value" ColumnName="value" />
+          <ScalarProperty Name="server" ColumnName="server" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nept2_session">
+      <EntityTypeMapping TypeName="neptuneModel1.nept2_session">
+        <MappingFragment StoreEntitySet="nept2_session">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="sessionid" ColumnName="sessionid" />
+          <ScalarProperty Name="customer" ColumnName="customer" />
+          <ScalarProperty Name="ip" ColumnName="ip" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="value" ColumnName="value" />
+          <ScalarProperty Name="server" ColumnName="server" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nept2_watchlist">
+      <EntityTypeMapping TypeName="neptuneModel1.nept2_watchlist">
+        <MappingFragment StoreEntitySet="nept2_watchlist">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="customer" ColumnName="customer" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NeptuneVesselIncrementalReports">
+      <EntityTypeMapping TypeName="neptuneModel1.NeptuneVesselIncrementalReport">
+        <MappingFragment StoreEntitySet="NeptuneVesselIncrementalReports">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="ReportData" ColumnName="ReportData" />
+          <ScalarProperty Name="ReportDate" ColumnName="ReportDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastUpdated" ColumnName="LastUpdated" />
+          <ScalarProperty Name="ReportType" ColumnName="ReportType" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NeptuneVesselIncrementalReports_Old">
+      <EntityTypeMapping TypeName="neptuneModel1.NeptuneVesselIncrementalReports_Old">
+        <MappingFragment StoreEntitySet="NeptuneVesselIncrementalReports_Old">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="ReportData" ColumnName="ReportData" />
+          <ScalarProperty Name="ReportDate" ColumnName="ReportDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastUpdated" ColumnName="LastUpdated" />
+          <ScalarProperty Name="ReportType" ColumnName="ReportType" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NeptuneVesselSettings">
+      <EntityTypeMapping TypeName="neptuneModel1.NeptuneVesselSetting">
+        <MappingFragment StoreEntitySet="NeptuneVesselSettings">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="CustomerGroupId" ColumnName="CustomerGroupId" />
+          <ScalarProperty Name="SettingsXml" ColumnName="SettingsXml" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NeptuneVesselStatus">
+      <EntityTypeMapping TypeName="neptuneModel1.NeptuneVesselStatu">
+        <MappingFragment StoreEntitySet="NeptuneVesselStatus">
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="NP234Report" ColumnName="NP234Report" />
+          <ScalarProperty Name="LastUpdated" ColumnName="LastUpdated" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NorwegianCatalogs">
+      <EntityTypeMapping TypeName="neptuneModel1.NorwegianCatalog">
+        <MappingFragment StoreEntitySet="NorwegianCatalog">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProdId" ColumnName="ProdId" />
+          <ScalarProperty Name="NauProdId" ColumnName="NauProdId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="MediaTypeId" ColumnName="MediaTypeId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NotificationMessages">
+      <EntityTypeMapping TypeName="neptuneModel1.NotificationMessage">
+        <MappingFragment StoreEntitySet="NotificationMessages">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="DetailsText" ColumnName="DetailsText" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="DateCreatedUtc" ColumnName="DateCreatedUtc" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ntm_BR">
+      <EntityTypeMapping TypeName="neptuneModel1.Ntm_BR">
+        <MappingFragment StoreEntitySet="Ntm_BR">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="Edition" ColumnName="Edition" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="AddedOnUtc" ColumnName="AddedOnUtc" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderHeaders">
+      <EntityTypeMapping TypeName="neptuneModel1.OrderHeader">
+        <MappingFragment StoreEntitySet="OrderHeaders">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="UtcCreatedAt" ColumnName="UtcCreatedAt" />
+          <ScalarProperty Name="CustomerServiceTicketId" ColumnName="CustomerServiceTicketId" />
+          <ScalarProperty Name="OrderedByEmail" ColumnName="OrderedByEmail" />
+          <ScalarProperty Name="InvoiceNumber" ColumnName="InvoiceNumber" />
+          <ScalarProperty Name="InvoiceRef" ColumnName="InvoiceRef" />
+          <ScalarProperty Name="InvoiceComment" ColumnName="InvoiceComment" />
+          <ScalarProperty Name="InvoiceBy" ColumnName="InvoiceBy" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+          <ScalarProperty Name="OrderStatusId" ColumnName="OrderStatusId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderLines">
+      <EntityTypeMapping TypeName="neptuneModel1.OrderLine">
+        <MappingFragment StoreEntitySet="OrderLines">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="OrderHeaderId" ColumnName="OrderHeaderId" />
+          <ScalarProperty Name="ProductGroupId" ColumnName="ProductGroupId" />
+          <ScalarProperty Name="ProductReference" ColumnName="ProductReference" />
+          <ScalarProperty Name="IssuerId" ColumnName="IssuerId" />
+          <ScalarProperty Name="OrderStatusId" ColumnName="OrderStatusId" />
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+          <ScalarProperty Name="ProdId" ColumnName="ProdId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderStatus">
+      <EntityTypeMapping TypeName="neptuneModel1.OrderStatu">
+        <MappingFragment StoreEntitySet="OrderStatus">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="packages">
+      <EntityTypeMapping TypeName="neptuneModel1.package">
+        <MappingFragment StoreEntitySet="package">
+          <ScalarProperty Name="pid" ColumnName="pid" />
+          <ScalarProperty Name="sid" ColumnName="sid" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="arguments" ColumnName="arguments" />
+          <ScalarProperty Name="size" ColumnName="size" />
+          <ScalarProperty Name="files" ColumnName="files" />
+          <ScalarProperty Name="ntms" ColumnName="ntms" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="pkey" ColumnName="pkey" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="package_files">
+      <EntityTypeMapping TypeName="neptuneModel1.package_files">
+        <MappingFragment StoreEntitySet="package_files">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="pid" ColumnName="pid" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="filesize" ColumnName="filesize" />
+          <ScalarProperty Name="sentasmail" ColumnName="sentasmail" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="package_open">
+      <EntityTypeMapping TypeName="neptuneModel1.package_open">
+        <MappingFragment StoreEntitySet="package_open">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sid" ColumnName="sid" />
+          <ScalarProperty Name="pid" ColumnName="pid" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PackageOpens">
+      <EntityTypeMapping TypeName="neptuneModel1.PackageOpen">
+        <MappingFragment StoreEntitySet="PackageOpens">
+          <ScalarProperty Name="SessionID" ColumnName="SessionID" />
+          <ScalarProperty Name="PackageID" ColumnName="PackageID" />
+          <ScalarProperty Name="PackageOpensID" ColumnName="PackageOpensID" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Packages1">
+      <EntityTypeMapping TypeName="neptuneModel1.Package1">
+        <MappingFragment StoreEntitySet="Packages">
+          <ScalarProperty Name="PackageID" ColumnName="PackageID" />
+          <ScalarProperty Name="SessionID" ColumnName="SessionID" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="SizeSaved" ColumnName="SizeSaved" />
+          <ScalarProperty Name="FileCount" ColumnName="FileCount" />
+          <ScalarProperty Name="NtmCount" ColumnName="NtmCount" />
+          <ScalarProperty Name="OptionalFilesCount" ColumnName="OptionalFilesCount" />
+          <ScalarProperty Name="CopiedCount" ColumnName="CopiedCount" />
+          <ScalarProperty Name="CreatedCount" ColumnName="CreatedCount" />
+          <ScalarProperty Name="ZippedCount" ColumnName="ZippedCount" />
+          <ScalarProperty Name="CreationTime" ColumnName="CreationTime" />
+          <ScalarProperty Name="PackageKey" ColumnName="PackageKey" />
+          <ScalarProperty Name="Arguments" ColumnName="Arguments" />
+          <ScalarProperty Name="PackageInfo" ColumnName="PackageInfo" />
+          <ScalarProperty Name="IsError" ColumnName="IsError" />
+          <ScalarProperty Name="IsTransferred" ColumnName="IsTransferred" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PaysAreaStatus">
+      <EntityTypeMapping TypeName="neptuneModel1.PaysAreaStatu">
+        <MappingFragment StoreEntitySet="PaysAreaStatus">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PermitStatus">
+      <EntityTypeMapping TypeName="neptuneModel1.PermitStatu">
+        <MappingFragment StoreEntitySet="PermitStatus">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="poseidon_access">
+      <EntityTypeMapping TypeName="neptuneModel1.poseidon_access">
+        <MappingFragment StoreEntitySet="poseidon_access">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="groupid" ColumnName="groupid" />
+          <ScalarProperty Name="customerid" ColumnName="customerid" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="poseidon_custom_userinformation">
+      <EntityTypeMapping TypeName="neptuneModel1.poseidon_custom_userinformation">
+        <MappingFragment StoreEntitySet="poseidon_custom_userinformation">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="customerid" ColumnName="customerid" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="poseidon_flag">
+      <EntityTypeMapping TypeName="neptuneModel1.poseidon_flag">
+        <MappingFragment StoreEntitySet="poseidon_flag">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="flag" ColumnName="flag" />
+          <ScalarProperty Name="n1" ColumnName="n1" />
+          <ScalarProperty Name="n2" ColumnName="n2" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="position" ColumnName="position" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="poseidon_group">
+      <EntityTypeMapping TypeName="neptuneModel1.poseidon_group">
+        <MappingFragment StoreEntitySet="poseidon_group">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="poseidon_session">
+      <EntityTypeMapping TypeName="neptuneModel1.poseidon_session">
+        <MappingFragment StoreEntitySet="poseidon_session">
+          <ScalarProperty Name="sid" ColumnName="sid" />
+          <ScalarProperty Name="uid" ColumnName="uid" />
+          <ScalarProperty Name="ip" ColumnName="ip" />
+          <ScalarProperty Name="start" ColumnName="start" />
+          <ScalarProperty Name="action" ColumnName="action" />
+          <ScalarProperty Name="request" ColumnName="request" />
+          <ScalarProperty Name="useragent" ColumnName="useragent" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="poseidon_user">
+      <EntityTypeMapping TypeName="neptuneModel1.poseidon_user">
+        <MappingFragment StoreEntitySet="poseidon_user">
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="displayname" ColumnName="displayname" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="displaytype" ColumnName="displaytype" />
+          <ScalarProperty Name="superuser" ColumnName="superuser" />
+          <ScalarProperty Name="groupid" ColumnName="groupid" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="poseidon_variable">
+      <EntityTypeMapping TypeName="neptuneModel1.poseidon_variable">
+        <MappingFragment StoreEntitySet="poseidon_variable">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="value" ColumnName="value" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="poseidon_watchlist">
+      <EntityTypeMapping TypeName="neptuneModel1.poseidon_watchlist">
+        <MappingFragment StoreEntitySet="poseidon_watchlist">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="customerid" ColumnName="customerid" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PositionProviders">
+      <EntityTypeMapping TypeName="neptuneModel1.PositionProvider">
+        <MappingFragment StoreEntitySet="PositionProviders">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="NormalPollInterval" ColumnName="NormalPollInterval" />
+          <ScalarProperty Name="ActivePollInterval" ColumnName="ActivePollInterval" />
+          <ScalarProperty Name="HighPollInterval" ColumnName="HighPollInterval" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PreorderedPublicationInformations">
+      <EntityTypeMapping TypeName="neptuneModel1.PreorderedPublicationInformation">
+        <MappingFragment StoreEntitySet="PreorderedPublicationInformation">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PrimarCountries">
+      <EntityTypeMapping TypeName="neptuneModel1.PrimarCountry">
+        <MappingFragment StoreEntitySet="PrimarCountries">
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PrimarSubscriptionTypes">
+      <EntityTypeMapping TypeName="neptuneModel1.PrimarSubscriptionType">
+        <MappingFragment StoreEntitySet="PrimarSubscriptionTypes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="PeriodInMonths" ColumnName="PeriodInMonths" />
+          <ScalarProperty Name="RealTimeEnc" ColumnName="RealTimeEnc" />
+          <ScalarProperty Name="AutoRenewal" ColumnName="AutoRenewal" />
+          <ScalarProperty Name="EncOrderTypeId" ColumnName="EncOrderTypeId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PrimarVesselCategories">
+      <EntityTypeMapping TypeName="neptuneModel1.PrimarVesselCategory">
+        <MappingFragment StoreEntitySet="PrimarVesselCategories">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductGroups">
+      <EntityTypeMapping TypeName="neptuneModel1.ProductGroup">
+        <MappingFragment StoreEntitySet="ProductGroups">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductPrices">
+      <EntityTypeMapping TypeName="neptuneModel1.ProductPrice">
+        <MappingFragment StoreEntitySet="ProductPrices">
+          <ScalarProperty Name="ProductGroupId" ColumnName="ProductGroupId" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Currency" ColumnName="Currency" />
+          <ScalarProperty Name="LastModified" ColumnName="LastModified" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PublicationCorrectionDocuments">
+      <EntityTypeMapping TypeName="neptuneModel1.PublicationCorrectionDocument">
+        <MappingFragment StoreEntitySet="PublicationCorrectionDocuments">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PubProductId" ColumnName="PubProductId" />
+          <ScalarProperty Name="IssuerId" ColumnName="IssuerId" />
+          <ScalarProperty Name="CorrectionTitle" ColumnName="CorrectionTitle" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="FilePath" ColumnName="FilePath" />
+          <ScalarProperty Name="CorrectionDateUtc" ColumnName="CorrectionDateUtc" />
+          <ScalarProperty Name="AddedDateUtc" ColumnName="AddedDateUtc" />
+          <ScalarProperty Name="MappedDateUtc" ColumnName="MappedDateUtc" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PublicationDocuments">
+      <EntityTypeMapping TypeName="neptuneModel1.PublicationDocument">
+        <MappingFragment StoreEntitySet="PublicationDocuments">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NauProdId" ColumnName="NauProdId" />
+          <ScalarProperty Name="ProdId" ColumnName="ProdId" />
+          <ScalarProperty Name="RelativePath" ColumnName="RelativePath" />
+          <ScalarProperty Name="MaxPrintCount" ColumnName="MaxPrintCount" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="FileSize" ColumnName="FileSize" />
+          <ScalarProperty Name="MaxPercentagePrintAllowed" ColumnName="MaxPercentagePrintAllowed" />
+          <ScalarProperty Name="ProductGroupId" ColumnName="ProductGroupId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+          <ScalarProperty Name="JsonString" ColumnName="JsonString" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PublicationDocumentsIndexInfoes">
+      <EntityTypeMapping TypeName="neptuneModel1.PublicationDocumentsIndexInfo">
+        <MappingFragment StoreEntitySet="PublicationDocumentsIndexInfo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NauProdId" ColumnName="NauProdId" />
+          <ScalarProperty Name="ProdId" ColumnName="ProdId" />
+          <ScalarProperty Name="RelativePath" ColumnName="RelativePath" />
+          <ScalarProperty Name="IndexDate" ColumnName="IndexDate" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RequiredEncsForSharedRoutes">
+      <EntityTypeMapping TypeName="neptuneModel1.RequiredEncsForSharedRoute">
+        <MappingFragment StoreEntitySet="RequiredEncsForSharedRoute">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EncCellId" ColumnName="EncCellId" />
+          <ScalarProperty Name="SharedRouteFileInfoId" ColumnName="SharedRouteFileInfoId" />
+          <ScalarProperty Name="EncCellName" ColumnName="EncCellName" />
+          <ScalarProperty Name="ChangedDate" ColumnName="ChangedDate" />
+          <ScalarProperty Name="ClientsDownloadedIhoBaseEdition" ColumnName="ClientsDownloadedIhoBaseEdition" />
+          <ScalarProperty Name="ClientsDownloadedIhoUpdateNumber" ColumnName="ClientsDownloadedIhoUpdateNumber" />
+          <ScalarProperty Name="ClientsDownloadedIhoUtcDate" ColumnName="ClientsDownloadedIhoUtcDate" />
+          <ScalarProperty Name="IsEncCellMissingInClient" ColumnName="IsEncCellMissingInClient" />
+          <ScalarProperty Name="IsEncCellOutDatedInClient" ColumnName="IsEncCellOutDatedInClient" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RequiredEncsForVoyages">
+      <EntityTypeMapping TypeName="neptuneModel1.RequiredEncsForVoyage">
+        <MappingFragment StoreEntitySet="RequiredEncsForVoyage">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EncCellId" ColumnName="EncCellId" />
+          <ScalarProperty Name="VoyageId" ColumnName="VoyageId" />
+          <ScalarProperty Name="EncCellName" ColumnName="EncCellName" />
+          <ScalarProperty Name="ChangedDate" ColumnName="ChangedDate" />
+          <ScalarProperty Name="ClientsDownloadedIhoBaseEdition" ColumnName="ClientsDownloadedIhoBaseEdition" />
+          <ScalarProperty Name="ClientsDownloadedIhoUpdateNumber" ColumnName="ClientsDownloadedIhoUpdateNumber" />
+          <ScalarProperty Name="ClientsDownloadedIhoUtcDate" ColumnName="ClientsDownloadedIhoUtcDate" />
+          <ScalarProperty Name="IsEncCellMissingInClient" ColumnName="IsEncCellMissingInClient" />
+          <ScalarProperty Name="IsEncCellOutDatedInClient" ColumnName="IsEncCellOutDatedInClient" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Servers">
+      <EntityTypeMapping TypeName="neptuneModel1.Server">
+        <MappingFragment StoreEntitySet="Servers">
+          <ScalarProperty Name="ServerID" ColumnName="ServerID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sessions">
+      <EntityTypeMapping TypeName="neptuneModel1.session">
+        <MappingFragment StoreEntitySet="session">
+          <ScalarProperty Name="sid" ColumnName="sid" />
+          <ScalarProperty Name="skey" ColumnName="skey" />
+          <ScalarProperty Name="customer" ColumnName="customer" />
+          <ScalarProperty Name="ip" ColumnName="ip" />
+          <ScalarProperty Name="starttime" ColumnName="starttime" />
+          <ScalarProperty Name="endtime" ColumnName="endtime" />
+          <ScalarProperty Name="admin" ColumnName="admin" />
+          <ScalarProperty Name="encryptionfile" ColumnName="encryptionfile" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="server" ColumnName="server" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="session_details">
+      <EntityTypeMapping TypeName="neptuneModel1.session_details">
+        <MappingFragment StoreEntitySet="session_details">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sid" ColumnName="sid" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="value" ColumnName="value" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sessions1">
+      <EntityTypeMapping TypeName="neptuneModel1.Session1">
+        <MappingFragment StoreEntitySet="Sessions">
+          <ScalarProperty Name="SessionID" ColumnName="SessionID" />
+          <ScalarProperty Name="ServerID" ColumnName="ServerID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="IsMail" ColumnName="IsMail" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+          <ScalarProperty Name="CreationTime" ColumnName="CreationTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SharedRouteFileInfos">
+      <EntityTypeMapping TypeName="neptuneModel1.SharedRouteFileInfo">
+        <MappingFragment StoreEntitySet="SharedRouteFileInfos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="IssuerId" ColumnName="IssuerId" />
+          <ScalarProperty Name="Departure" ColumnName="Departure" />
+          <ScalarProperty Name="Destination" ColumnName="Destination" />
+          <ScalarProperty Name="ViaPortNames" ColumnName="ViaPortNames" />
+          <ScalarProperty Name="RtzFileName" ColumnName="RtzFileName" />
+          <ScalarProperty Name="RtzFilePath" ColumnName="RtzFilePath" />
+          <ScalarProperty Name="RouteStatus" ColumnName="RouteStatus" />
+          <ScalarProperty Name="NaviPlannerUserName" ColumnName="NaviPlannerUserName" />
+          <ScalarProperty Name="NaviPlannerUserId" ColumnName="NaviPlannerUserId" />
+          <ScalarProperty Name="UploadedDate" ColumnName="UploadedDate" />
+          <ScalarProperty Name="ChangedDate" ColumnName="ChangedDate" />
+          <ScalarProperty Name="RouteName" ColumnName="RouteName" />
+          <ScalarProperty Name="SourceName" ColumnName="SourceName" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShippingGuidesCatalogs">
+      <EntityTypeMapping TypeName="neptuneModel1.ShippingGuidesCatalog">
+        <MappingFragment StoreEntitySet="ShippingGuidesCatalog">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProdId" ColumnName="ProdId" />
+          <ScalarProperty Name="NauProdId" ColumnName="NauProdId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="MediaTypeId" ColumnName="MediaTypeId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="PublisherName" ColumnName="PublisherName" />
+          <ScalarProperty Name="AuthorName" ColumnName="AuthorName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SynchronizedEntities">
+      <EntityTypeMapping TypeName="neptuneModel1.SynchronizedEntity">
+        <MappingFragment StoreEntitySet="SynchronizedEntities">
+          <ScalarProperty Name="EntityName" ColumnName="EntityName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="LastSynchronized" ColumnName="LastSynchronized" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TankedPublicationInfoes">
+      <EntityTypeMapping TypeName="neptuneModel1.TankedPublicationInfo">
+        <MappingFragment StoreEntitySet="TankedPublicationInfo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="DeviceSerialNumber" ColumnName="DeviceSerialNumber" />
+          <ScalarProperty Name="NauProdId" ColumnName="NauProdId" />
+          <ScalarProperty Name="ProdId" ColumnName="ProdId" />
+          <ScalarProperty Name="Salt" ColumnName="Salt" />
+          <ScalarProperty Name="RandomString" ColumnName="RandomString" />
+          <ScalarProperty Name="Iteration" ColumnName="Iteration" />
+          <ScalarProperty Name="TankedOn" ColumnName="TankedOn" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Trackings">
+      <EntityTypeMapping TypeName="neptuneModel1.Tracking">
+        <MappingFragment StoreEntitySet="Tracking">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="Track" ColumnName="Track" />
+          <ScalarProperty Name="Ordered" ColumnName="Ordered" />
+          <ScalarProperty Name="TimestampUtc" ColumnName="TimestampUtc" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Transfers">
+      <EntityTypeMapping TypeName="neptuneModel1.Transfer">
+        <MappingFragment StoreEntitySet="Transfers">
+          <ScalarProperty Name="TransferID" ColumnName="TransferID" />
+          <ScalarProperty Name="SessionID" ColumnName="SessionID" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="FileCount" ColumnName="FileCount" />
+          <ScalarProperty Name="Speed" ColumnName="Speed" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="IsFaulted" ColumnName="IsFaulted" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USCatalogs">
+      <EntityTypeMapping TypeName="neptuneModel1.USCatalog">
+        <MappingFragment StoreEntitySet="USCatalog">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProdId" ColumnName="ProdId" />
+          <ScalarProperty Name="NauProdId" ColumnName="NauProdId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="MediaTypeId" ColumnName="MediaTypeId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USCorrections">
+      <EntityTypeMapping TypeName="neptuneModel1.USCorrection">
+        <MappingFragment StoreEntitySet="USCorrections">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ChartNumber" ColumnName="ChartNumber" />
+          <ScalarProperty Name="IntlChartNumber" ColumnName="IntlChartNumber" />
+          <ScalarProperty Name="ChartEdition" ColumnName="ChartEdition" />
+          <ScalarProperty Name="ChartEditionDate" ColumnName="ChartEditionDate" />
+          <ScalarProperty Name="LastNm" ColumnName="LastNm" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="Week" ColumnName="Week" />
+          <ScalarProperty Name="IsOriginalUSSource" ColumnName="IsOriginalUSSource" />
+          <ScalarProperty Name="IsTemporary" ColumnName="IsTemporary" />
+          <ScalarProperty Name="IsPreliminary" ColumnName="IsPreliminary" />
+          <ScalarProperty Name="IsLimitedDistribution" ColumnName="IsLimitedDistribution" />
+          <ScalarProperty Name="IsMetricOnly" ColumnName="IsMetricOnly" />
+          <ScalarProperty Name="IsNewChart" ColumnName="IsNewChart" />
+          <ScalarProperty Name="IsNewEdition" ColumnName="IsNewEdition" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="Entries" ColumnName="Entries" />
+          <ScalarProperty Name="TracingsPath" ColumnName="TracingsPath" />
+          <ScalarProperty Name="BlocksPath" ColumnName="BlocksPath" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USCorrections_Temp">
+      <EntityTypeMapping TypeName="neptuneModel1.USCorrections_Temp">
+        <MappingFragment StoreEntitySet="USCorrections_Temp">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ChartNumber" ColumnName="ChartNumber" />
+          <ScalarProperty Name="IntlChartNumber" ColumnName="IntlChartNumber" />
+          <ScalarProperty Name="ChartEdition" ColumnName="ChartEdition" />
+          <ScalarProperty Name="ChartEditionDate" ColumnName="ChartEditionDate" />
+          <ScalarProperty Name="LastNm" ColumnName="LastNm" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="Week" ColumnName="Week" />
+          <ScalarProperty Name="IsOriginalUSSource" ColumnName="IsOriginalUSSource" />
+          <ScalarProperty Name="IsTemporary" ColumnName="IsTemporary" />
+          <ScalarProperty Name="IsPreliminary" ColumnName="IsPreliminary" />
+          <ScalarProperty Name="IsLimitedDistribution" ColumnName="IsLimitedDistribution" />
+          <ScalarProperty Name="IsMetricOnly" ColumnName="IsMetricOnly" />
+          <ScalarProperty Name="IsNewChart" ColumnName="IsNewChart" />
+          <ScalarProperty Name="IsNewEdition" ColumnName="IsNewEdition" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="Entries" ColumnName="Entries" />
+          <ScalarProperty Name="TracingsPath" ColumnName="TracingsPath" />
+          <ScalarProperty Name="BlocksPath" ColumnName="BlocksPath" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ValueAddedSubscriptions">
+      <EntityTypeMapping TypeName="neptuneModel1.ValueAddedSubscription">
+        <MappingFragment StoreEntitySet="ValueAddedSubscriptions">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TypeId" ColumnName="TypeId" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="AddedUtcDate" ColumnName="AddedUtcDate" />
+          <ScalarProperty Name="RemovedUtcDate" ColumnName="RemovedUtcDate" />
+          <ScalarProperty Name="IsPending" ColumnName="IsPending" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+          <ScalarProperty Name="StatusId" ColumnName="StatusId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ValueAddedSubscriptionStatus">
+      <EntityTypeMapping TypeName="neptuneModel1.ValueAddedSubscriptionStatu">
+        <MappingFragment StoreEntitySet="ValueAddedSubscriptionStatus">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="FriendlyName" ColumnName="FriendlyName" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ValueAddedSubscriptionTypePrices">
+      <EntityTypeMapping TypeName="neptuneModel1.ValueAddedSubscriptionTypePrice">
+        <MappingFragment StoreEntitySet="ValueAddedSubscriptionTypePrices">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="ValidFromUtcDate" ColumnName="ValidFromUtcDate" />
+          <ScalarProperty Name="ValidToUtcDate" ColumnName="ValidToUtcDate" />
+          <ScalarProperty Name="VASTypeId" ColumnName="VASTypeId" />
+          <ScalarProperty Name="BaseCurrencyId" ColumnName="BaseCurrencyId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ValueAddedSubscriptionTypes">
+      <EntityTypeMapping TypeName="neptuneModel1.ValueAddedSubscriptionType">
+        <MappingFragment StoreEntitySet="ValueAddedSubscriptionTypes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+          <ScalarProperty Name="FriendlyName" ColumnName="FriendlyName" />
+          <ScalarProperty Name="DisplayOrder" ColumnName="DisplayOrder" />
+          <ScalarProperty Name="AddedUtcDate" ColumnName="AddedUtcDate" />
+          <ScalarProperty Name="RemovedUtcDate" ColumnName="RemovedUtcDate" />
+          <ScalarProperty Name="ActiveCurrencyId" ColumnName="ActiveCurrencyId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Variables">
+      <EntityTypeMapping TypeName="neptuneModel1.Variable">
+        <MappingFragment StoreEntitySet="Variables">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="C_Variable" ColumnName="_Variable" />
+          <ScalarProperty Name="C_Value" ColumnName="_Value" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VesselCategories">
+      <EntityTypeMapping TypeName="neptuneModel1.VesselCategory">
+        <MappingFragment StoreEntitySet="VesselCategories">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="VismaDescription" ColumnName="VismaDescription" />
+          <ScalarProperty Name="PrimarCategoryId" ColumnName="PrimarCategoryId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VesselCompanies">
+      <EntityTypeMapping TypeName="neptuneModel1.VesselCompany">
+        <MappingFragment StoreEntitySet="VesselCompanies">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="CountryCode" ColumnName="CountryCode" />
+          <ScalarProperty Name="ChangedAt" ColumnName="ChangedAt" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VesselCompanyFileAccesses">
+      <EntityTypeMapping TypeName="neptuneModel1.VesselCompanyFileAccess">
+        <MappingFragment StoreEntitySet="VesselCompanyFileAccess">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FileId" ColumnName="FileId" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VesselCompanyFiles">
+      <EntityTypeMapping TypeName="neptuneModel1.VesselCompanyFile">
+        <MappingFragment StoreEntitySet="VesselCompanyFiles">
+          <ScalarProperty Name="FileId" ColumnName="FileId" />
+          <ScalarProperty Name="TypeId" ColumnName="TypeId" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Currency" ColumnName="Currency" />
+          <ScalarProperty Name="NauProdId" ColumnName="NauProdId" />
+          <ScalarProperty Name="ProdId" ColumnName="ProdId" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="FileSize" ColumnName="FileSize" />
+          <ScalarProperty Name="ThumbnailName" ColumnName="ThumbnailName" />
+          <ScalarProperty Name="UploadedDate" ColumnName="UploadedDate" />
+          <ScalarProperty Name="ApprovedDate" ColumnName="ApprovedDate" />
+          <ScalarProperty Name="ApprovedBy" ColumnName="ApprovedBy" />
+          <ScalarProperty Name="MaxPrintCount" ColumnName="MaxPrintCount" />
+          <ScalarProperty Name="MaxPercentagePrintAllowed" ColumnName="MaxPercentagePrintAllowed" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="MediaTypeId" ColumnName="MediaTypeId" />
+          <ScalarProperty Name="OriginalFileName" ColumnName="OriginalFileName" />
+          <ScalarProperty Name="OriginalThumbnailName" ColumnName="OriginalThumbnailName" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VesselCompanyFileTypes">
+      <EntityTypeMapping TypeName="neptuneModel1.VesselCompanyFileType">
+        <MappingFragment StoreEntitySet="VesselCompanyFileTypes">
+          <ScalarProperty Name="TypeId" ColumnName="TypeId" />
+          <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VesselCompanyPublicationCategories">
+      <EntityTypeMapping TypeName="neptuneModel1.VesselCompanyPublicationCategory">
+        <MappingFragment StoreEntitySet="VesselCompanyPublicationCategories">
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+          <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VesselPositions">
+      <EntityTypeMapping TypeName="neptuneModel1.VesselPosition">
+        <MappingFragment StoreEntitySet="VesselPositions">
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="Lon" ColumnName="Lon" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="TimestampUtc" ColumnName="TimestampUtc" />
+          <ScalarProperty Name="IsWithinCoverage" ColumnName="IsWithinCoverage" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="ProviderId" ColumnName="ProviderId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LastConfirmedUtc" ColumnName="LastConfirmedUtc" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="VesselPositionStatusId" ColumnName="VesselPositionStatusId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VesselPositions_Dummy">
+      <EntityTypeMapping TypeName="neptuneModel1.VesselPositions_Dummy">
+        <MappingFragment StoreEntitySet="VesselPositions_Dummy">
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="Lon" ColumnName="Lon" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="TimestampUtc" ColumnName="TimestampUtc" />
+          <ScalarProperty Name="IsWithinCoverage" ColumnName="IsWithinCoverage" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="ProviderId" ColumnName="ProviderId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LastConfirmedUtc" ColumnName="LastConfirmedUtc" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="VesselPositionStatusId" ColumnName="VesselPositionStatusId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VesselPositionStatus">
+      <EntityTypeMapping TypeName="neptuneModel1.VesselPositionStatu">
+        <MappingFragment StoreEntitySet="VesselPositionStatus">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VesselZones">
+      <EntityTypeMapping TypeName="neptuneModel1.VesselZone">
+        <MappingFragment StoreEntitySet="VesselZones">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="FlatFeeZoneId" ColumnName="FlatFeeZoneId" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="IsPrimaryZone" ColumnName="IsPrimaryZone" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VoyageDocuments">
+      <EntityTypeMapping TypeName="neptuneModel1.VoyageDocument">
+        <MappingFragment StoreEntitySet="VoyageDocuments">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="VoyageId" ColumnName="VoyageId" />
+          <ScalarProperty Name="PdfFileName" ColumnName="PdfFileName" />
+          <ScalarProperty Name="PdfFilePath" ColumnName="PdfFilePath" />
+          <ScalarProperty Name="UploadedDate" ColumnName="UploadedDate" />
+          <ScalarProperty Name="ChangedDate" ColumnName="ChangedDate" />
+          <ScalarProperty Name="SourceName" ColumnName="SourceName" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VoyageRoutes">
+      <EntityTypeMapping TypeName="neptuneModel1.VoyageRoute">
+        <MappingFragment StoreEntitySet="VoyageRoute">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="Lng" ColumnName="Lng" />
+          <ScalarProperty Name="VoyageId" ColumnName="VoyageId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Voyages">
+      <EntityTypeMapping TypeName="neptuneModel1.Voyage">
+        <MappingFragment StoreEntitySet="Voyages">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="IssuerId" ColumnName="IssuerId" />
+          <ScalarProperty Name="ETA" ColumnName="ETA" />
+          <ScalarProperty Name="ETD" ColumnName="ETD" />
+          <ScalarProperty Name="Destination" ColumnName="Destination" />
+          <ScalarProperty Name="Departure" ColumnName="Departure" />
+          <ScalarProperty Name="ViaPortNames" ColumnName="ViaPortNames" />
+          <ScalarProperty Name="RouteStatus" ColumnName="RouteStatus" />
+          <ScalarProperty Name="ProductStatus" ColumnName="ProductStatus" />
+          <ScalarProperty Name="UpdateStatus" ColumnName="UpdateStatus" />
+          <ScalarProperty Name="RtzFileName" ColumnName="RtzFileName" />
+          <ScalarProperty Name="RtzFilePath" ColumnName="RtzFilePath" />
+          <ScalarProperty Name="UploadedDate" ColumnName="UploadedDate" />
+          <ScalarProperty Name="ChangedDate" ColumnName="ChangedDate" />
+          <ScalarProperty Name="RouteName" ColumnName="RouteName" />
+          <ScalarProperty Name="NaviPlannerUserId" ColumnName="NaviPlannerUserId" />
+          <ScalarProperty Name="NaviPlannerUserName" ColumnName="NaviPlannerUserName" />
+          <ScalarProperty Name="SourceName" ColumnName="SourceName" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WB_Pending">
+      <EntityTypeMapping TypeName="neptuneModel1.WB_Pending">
+        <MappingFragment StoreEntitySet="WB_Pending">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="StartPage" ColumnName="StartPage" />
+          <ScalarProperty Name="EndPage" ColumnName="EndPage" />
+          <ScalarProperty Name="Section" ColumnName="Section" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="activesubscriptions_new">
+      <EntityTypeMapping TypeName="neptuneModel1.activesubscriptions_new">
+        <MappingFragment StoreEntitySet="activesubscriptions_new">
+          <ScalarProperty Name="C_Id" ColumnName="_Id" />
+          <ScalarProperty Name="C_CustomerId" ColumnName="_CustomerId" />
+          <ScalarProperty Name="C_ShipName" ColumnName="_ShipName" />
+          <ScalarProperty Name="C_NauProdID" ColumnName="_NauProdID" />
+          <ScalarProperty Name="C_IssuerID" ColumnName="_IssuerID" />
+          <ScalarProperty Name="C_Type" ColumnName="_Type" />
+          <ScalarProperty Name="C_ChartNumber" ColumnName="_ChartNumber" />
+          <ScalarProperty Name="C_Added" ColumnName="_Added" />
+          <ScalarProperty Name="C_Removed" ColumnName="_Removed" />
+          <ScalarProperty Name="C_Description" ColumnName="_Description" />
+          <ScalarProperty Name="C_ShipEd" ColumnName="_ShipEd" />
+          <ScalarProperty Name="C_CurrentEd" ColumnName="_CurrentEd" />
+          <ScalarProperty Name="C_Sent" ColumnName="_Sent" />
+          <ScalarProperty Name="C_Antall" ColumnName="_Antall" />
+          <ScalarProperty Name="C_SubStatus" ColumnName="_SubStatus" />
+          <ScalarProperty Name="C_eNTMSubCode" ColumnName="_eNTMSubCode" />
+          <ScalarProperty Name="C_CustNotifiedAdded" ColumnName="_CustNotifiedAdded" />
+          <ScalarProperty Name="C_CustNotifiedRemoved" ColumnName="_CustNotifiedRemoved" />
+          <ScalarProperty Name="C_UniqueVBValue" ColumnName="_UniqueVBValue" />
+          <ScalarProperty Name="C_EditionDate" ColumnName="_EditionDate" />
+          <ScalarProperty Name="C_VBEditionDate" ColumnName="_VBEditionDate" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BASectVs">
+      <EntityTypeMapping TypeName="neptuneModel1.BASectV">
+        <MappingFragment StoreEntitySet="BASectV">
+          <ScalarProperty Name="BA_Name" ColumnName="BA_Name" />
+          <ScalarProperty Name="NauProdID" ColumnName="NauProdID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CountriesAllowingPaysPlus">
+      <EntityTypeMapping TypeName="neptuneModel1.CountriesAllowingPaysPlu">
+        <MappingFragment StoreEntitySet="CountriesAllowingPaysPlus">
+          <ScalarProperty Name="CountryCode" ColumnName="CountryCode" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerDeviceInfoes">
+      <EntityTypeMapping TypeName="neptuneModel1.CustomerDeviceInfo">
+        <MappingFragment StoreEntitySet="CustomerDeviceInfo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="DeviceSerialNum" ColumnName="DeviceSerialNum" />
+          <ScalarProperty Name="CustomerDeviceNum" ColumnName="CustomerDeviceNum" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="RandomNumber" ColumnName="RandomNumber" />
+          <ScalarProperty Name="WifiMAC" ColumnName="WifiMAC" />
+          <ScalarProperty Name="DockingMAC" ColumnName="DockingMAC" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerGroups">
+      <EntityTypeMapping TypeName="neptuneModel1.CustomerGroup">
+        <MappingFragment StoreEntitySet="CustomerGroup">
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+          <ScalarProperty Name="GroupName" ColumnName="GroupName" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerInfoes">
+      <EntityTypeMapping TypeName="neptuneModel1.CustomerInfo">
+        <MappingFragment StoreEntitySet="CustomerInfo">
+          <ScalarProperty Name="C_ID" ColumnName="_ID" />
+          <ScalarProperty Name="C_customerID" ColumnName="_customerID" />
+          <ScalarProperty Name="C_ShipName" ColumnName="_ShipName" />
+          <ScalarProperty Name="C_NeptuneCode" ColumnName="_NeptuneCode" />
+          <ScalarProperty Name="C_InfoDate" ColumnName="_InfoDate" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="document_types">
+      <EntityTypeMapping TypeName="neptuneModel1.document_types">
+        <MappingFragment StoreEntitySet="document_types">
+          <ScalarProperty Name="C_Id" ColumnName="_Id" />
+          <ScalarProperty Name="C_Type" ColumnName="_Type" />
+          <ScalarProperty Name="C_FilePart" ColumnName="_FilePart" />
+          <ScalarProperty Name="C_Startpos" ColumnName="_Startpos" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EncBaseCDCoverages">
+      <EntityTypeMapping TypeName="neptuneModel1.EncBaseCDCoverage">
+        <MappingFragment StoreEntitySet="EncBaseCDCoverage">
+          <ScalarProperty Name="BaseCD" ColumnName="BaseCD" />
+          <ScalarProperty Name="CountryCodes" ColumnName="CountryCodes" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EncCells_Dummy">
+      <EntityTypeMapping TypeName="neptuneModel1.EncCells_Dummy">
+        <MappingFragment StoreEntitySet="EncCells_Dummy">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IssuerId" ColumnName="IssuerId" />
+          <ScalarProperty Name="CellName" ColumnName="CellName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="NavigationalPurpose" ColumnName="NavigationalPurpose" />
+          <ScalarProperty Name="BoundarySLat" ColumnName="BoundarySLat" />
+          <ScalarProperty Name="BoundaryWLon" ColumnName="BoundaryWLon" />
+          <ScalarProperty Name="BoundaryNLat" ColumnName="BoundaryNLat" />
+          <ScalarProperty Name="BoundaryELon" ColumnName="BoundaryELon" />
+          <ScalarProperty Name="PolygonPoints" ColumnName="PolygonPoints" />
+          <ScalarProperty Name="BaseEdition" ColumnName="BaseEdition" />
+          <ScalarProperty Name="BaseIssueDate" ColumnName="BaseIssueDate" />
+          <ScalarProperty Name="LatestUpdateNumber" ColumnName="LatestUpdateNumber" />
+          <ScalarProperty Name="RecordLastUpdated" ColumnName="RecordLastUpdated" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="GeometryData" ColumnName="GeometryData" />
+          <ScalarProperty Name="ReleaseDateUtc" ColumnName="ReleaseDateUtc" />
+          <ScalarProperty Name="CancelDateUtc" ColumnName="CancelDateUtc" />
+          <ScalarProperty Name="ReplaceDateUtc" ColumnName="ReplaceDateUtc" />
+          <ScalarProperty Name="Geography" ColumnName="Geography" />
+          <ScalarProperty Name="DownloadedBaseEdition" ColumnName="DownloadedBaseEdition" />
+          <ScalarProperty Name="DownloadedUpdateNumber" ColumnName="DownloadedUpdateNumber" />
+          <ScalarProperty Name="DownloadedUtcDate" ColumnName="DownloadedUtcDate" />
+          <ScalarProperty Name="Geometry" ColumnName="Geometry" />
+          <ScalarProperty Name="DownloadedIhoBaseEdition" ColumnName="DownloadedIhoBaseEdition" />
+          <ScalarProperty Name="DownloadedIhoUpdateNumber" ColumnName="DownloadedIhoUpdateNumber" />
+          <ScalarProperty Name="DownloadedIhoUtcDate" ColumnName="DownloadedIhoUtcDate" />
+          <ScalarProperty Name="IsForSale" ColumnName="IsForSale" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="errorlogs">
+      <EntityTypeMapping TypeName="neptuneModel1.errorlog">
+        <MappingFragment StoreEntitySet="errorlog">
+          <ScalarProperty Name="C_Id" ColumnName="_Id" />
+          <ScalarProperty Name="C_Added" ColumnName="_Added" />
+          <ScalarProperty Name="C_Where" ColumnName="_Where" />
+          <ScalarProperty Name="C_What" ColumnName="_What" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FilesAddedDates">
+      <EntityTypeMapping TypeName="neptuneModel1.FilesAddedDate">
+        <MappingFragment StoreEntitySet="FilesAddedDate">
+          <ScalarProperty Name="FilePath" ColumnName="FilePath" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ImoPublicationsNoDigitals">
+      <EntityTypeMapping TypeName="neptuneModel1.ImoPublicationsNoDigital">
+        <MappingFragment StoreEntitySet="ImoPublicationsNoDigital">
+          <ScalarProperty Name="ProdId" ColumnName="ProdId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="inactivesubscriptions_not_in_use">
+      <EntityTypeMapping TypeName="neptuneModel1.inactivesubscriptions_not_in_use">
+        <MappingFragment StoreEntitySet="inactivesubscriptions_not_in_use">
+          <ScalarProperty Name="C_Id" ColumnName="_Id" />
+          <ScalarProperty Name="C_CustomerID" ColumnName="_CustomerID" />
+          <ScalarProperty Name="C_NauProdID" ColumnName="_NauProdID" />
+          <ScalarProperty Name="C_IssuerID" ColumnName="_IssuerID" />
+          <ScalarProperty Name="C_Type" ColumnName="_Type" />
+          <ScalarProperty Name="C_ChartNumber" ColumnName="_ChartNumber" />
+          <ScalarProperty Name="C_Added" ColumnName="_Added" />
+          <ScalarProperty Name="C_Removed" ColumnName="_Removed" />
+          <ScalarProperty Name="C_Description" ColumnName="_Description" />
+          <ScalarProperty Name="C_ShipEd" ColumnName="_ShipEd" />
+          <ScalarProperty Name="C_CurrentEd" ColumnName="_CurrentEd" />
+          <ScalarProperty Name="C_Sent" ColumnName="_Sent" />
+          <ScalarProperty Name="C_Antall" ColumnName="_Antall" />
+          <ScalarProperty Name="C_SubStatus" ColumnName="_SubStatus" />
+          <ScalarProperty Name="C_CustNotified" ColumnName="_CustNotified" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IssuerPrefixes">
+      <EntityTypeMapping TypeName="neptuneModel1.IssuerPrefix">
+        <MappingFragment StoreEntitySet="IssuerPrefixes">
+          <ScalarProperty Name="issuerID" ColumnName="issuerID" />
+          <ScalarProperty Name="prefixtableID" ColumnName="prefixtableID" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="log_sentfiles">
+      <EntityTypeMapping TypeName="neptuneModel1.log_sentfiles">
+        <MappingFragment StoreEntitySet="log_sentfiles">
+          <ScalarProperty Name="C_id" ColumnName="_id" />
+          <ScalarProperty Name="C_customerID" ColumnName="_customerID" />
+          <ScalarProperty Name="C_ntmID" ColumnName="_ntmID" />
+          <ScalarProperty Name="C_optfileID" ColumnName="_optfileID" />
+          <ScalarProperty Name="C_filename" ColumnName="_filename" />
+          <ScalarProperty Name="C_sentasemail" ColumnName="_sentasemail" />
+          <ScalarProperty Name="C_requesttime" ColumnName="_requesttime" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Moved_OptionalFiles">
+      <EntityTypeMapping TypeName="neptuneModel1.Moved_OptionalFiles">
+        <MappingFragment StoreEntitySet="Moved_OptionalFiles">
+          <ScalarProperty Name="C_Id" ColumnName="_Id" />
+          <ScalarProperty Name="C_Type" ColumnName="_Type" />
+          <ScalarProperty Name="C_Number" ColumnName="_Number" />
+          <ScalarProperty Name="C_Path" ColumnName="_Path" />
+          <ScalarProperty Name="C_Week" ColumnName="_Week" />
+          <ScalarProperty Name="C_Year" ColumnName="_Year" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Moved_XmlNTMData">
+      <EntityTypeMapping TypeName="neptuneModel1.Moved_XmlNTMData">
+        <MappingFragment StoreEntitySet="Moved_XmlNTMData">
+          <ScalarProperty Name="C_Id" ColumnName="_Id" />
+          <ScalarProperty Name="C_PrimaryKey" ColumnName="_PrimaryKey" />
+          <ScalarProperty Name="C_PubDate" ColumnName="_PubDate" />
+          <ScalarProperty Name="C_IssuerID" ColumnName="_IssuerID" />
+          <ScalarProperty Name="C_Type" ColumnName="_Type" />
+          <ScalarProperty Name="C_Week" ColumnName="_Week" />
+          <ScalarProperty Name="C_NMNumber" ColumnName="_NMNumber" />
+          <ScalarProperty Name="C_Year" ColumnName="_Year" />
+          <ScalarProperty Name="C_ChartNumber" ColumnName="_ChartNumber" />
+          <ScalarProperty Name="C_areacode" ColumnName="_areacode" />
+          <ScalarProperty Name="C_region" ColumnName="_region" />
+          <ScalarProperty Name="C_sub_region" ColumnName="_sub_region" />
+          <ScalarProperty Name="C_vicinities" ColumnName="_vicinities" />
+          <ScalarProperty Name="C_feature_types" ColumnName="_feature_types" />
+          <ScalarProperty Name="C_light_list" ColumnName="_light_list" />
+          <ScalarProperty Name="C_authority" ColumnName="_authority" />
+          <ScalarProperty Name="C_note" ColumnName="_note" />
+          <ScalarProperty Name="C_Ident" ColumnName="_Ident" />
+          <ScalarProperty Name="C_FolioNumber" ColumnName="_FolioNumber" />
+          <ScalarProperty Name="C_LastUpdateNM" ColumnName="_LastUpdateNM" />
+          <ScalarProperty Name="C_LastUpdateDate" ColumnName="_LastUpdateDate" />
+          <ScalarProperty Name="C_XML" ColumnName="_XML" />
+          <ScalarProperty Name="C_GraphicsPath" ColumnName="_GraphicsPath" />
+          <ScalarProperty Name="C_LowresPath" ColumnName="_LowresPath" />
+          <ScalarProperty Name="C_SuperLowresPath" ColumnName="_SuperLowresPath" />
+          <ScalarProperty Name="C_NewEdition" ColumnName="_NewEdition" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Neptune_AutoReport">
+      <EntityTypeMapping TypeName="neptuneModel1.Neptune_AutoReport">
+        <MappingFragment StoreEntitySet="Neptune_AutoReport">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="reportname" ColumnName="reportname" />
+          <ScalarProperty Name="sendstyle" ColumnName="sendstyle" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Neptune_Files">
+      <EntityTypeMapping TypeName="neptuneModel1.Neptune_Files">
+        <MappingFragment StoreEntitySet="Neptune_Files">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sessionid" ColumnName="sessionid" />
+          <ScalarProperty Name="starttime" ColumnName="starttime" />
+          <ScalarProperty Name="finishtime" ColumnName="finishtime" />
+          <ScalarProperty Name="ip" ColumnName="ip" />
+          <ScalarProperty Name="file_name" ColumnName="file_name" />
+          <ScalarProperty Name="file_size" ColumnName="file_size" />
+          <ScalarProperty Name="customer" ColumnName="customer" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Neptune_Files_old">
+      <EntityTypeMapping TypeName="neptuneModel1.Neptune_Files_old">
+        <MappingFragment StoreEntitySet="Neptune_Files_old">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sessionid" ColumnName="sessionid" />
+          <ScalarProperty Name="starttime" ColumnName="starttime" />
+          <ScalarProperty Name="finishtime" ColumnName="finishtime" />
+          <ScalarProperty Name="ip" ColumnName="ip" />
+          <ScalarProperty Name="file_name" ColumnName="file_name" />
+          <ScalarProperty Name="file_size" ColumnName="file_size" />
+          <ScalarProperty Name="customer" ColumnName="customer" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Neptune_Logons">
+      <EntityTypeMapping TypeName="neptuneModel1.Neptune_Logons">
+        <MappingFragment StoreEntitySet="Neptune_Logons">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="ip" ColumnName="ip" />
+          <ScalarProperty Name="customer" ColumnName="customer" />
+          <ScalarProperty Name="parameters" ColumnName="parameters" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Neptune_Logons_old">
+      <EntityTypeMapping TypeName="neptuneModel1.Neptune_Logons_old">
+        <MappingFragment StoreEntitySet="Neptune_Logons_old">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="ip" ColumnName="ip" />
+          <ScalarProperty Name="customer" ColumnName="customer" />
+          <ScalarProperty Name="parameters" ColumnName="parameters" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ntm_AUS">
+      <EntityTypeMapping TypeName="neptuneModel1.Ntm_AUS">
+        <MappingFragment StoreEntitySet="Ntm_AUS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NMNumber" ColumnName="NMNumber" />
+          <ScalarProperty Name="Edition" ColumnName="Edition" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="ChartNumber" ColumnName="ChartNumber" />
+          <ScalarProperty Name="StartPage" ColumnName="StartPage" />
+          <ScalarProperty Name="EndPage" ColumnName="EndPage" />
+          <ScalarProperty Name="LastNtm" ColumnName="LastNtm" />
+          <ScalarProperty Name="DocumentPath" ColumnName="DocumentPath" />
+          <ScalarProperty Name="TracingsPath" ColumnName="TracingsPath" />
+          <ScalarProperty Name="BlocksPath" ColumnName="BlocksPath" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="IssuerID" ColumnName="IssuerID" />
+          <ScalarProperty Name="Published" ColumnName="Published" />
+          <ScalarProperty Name="Added" ColumnName="Added" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ntm_JP">
+      <EntityTypeMapping TypeName="neptuneModel1.Ntm_JP">
+        <MappingFragment StoreEntitySet="Ntm_JP">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NMNumber" ColumnName="NMNumber" />
+          <ScalarProperty Name="Week" ColumnName="Week" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="ChartNumber" ColumnName="ChartNumber" />
+          <ScalarProperty Name="StartPage" ColumnName="StartPage" />
+          <ScalarProperty Name="EndPage" ColumnName="EndPage" />
+          <ScalarProperty Name="LastNtm" ColumnName="LastNtm" />
+          <ScalarProperty Name="DocumentPath" ColumnName="DocumentPath" />
+          <ScalarProperty Name="TracingsPath" ColumnName="TracingsPath" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="IssuerID" ColumnName="IssuerID" />
+          <ScalarProperty Name="Published" ColumnName="Published" />
+          <ScalarProperty Name="Added" ColumnName="Added" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ntm_NZ">
+      <EntityTypeMapping TypeName="neptuneModel1.Ntm_NZ">
+        <MappingFragment StoreEntitySet="Ntm_NZ">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NMNumber" ColumnName="NMNumber" />
+          <ScalarProperty Name="Edition" ColumnName="Edition" />
+          <ScalarProperty Name="Week" ColumnName="Week" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="ChartNumber" ColumnName="ChartNumber" />
+          <ScalarProperty Name="StartPage" ColumnName="StartPage" />
+          <ScalarProperty Name="EndPage" ColumnName="EndPage" />
+          <ScalarProperty Name="LastNtm" ColumnName="LastNtm" />
+          <ScalarProperty Name="DocumentPath" ColumnName="DocumentPath" />
+          <ScalarProperty Name="TracingsPath" ColumnName="TracingsPath" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="IssuerID" ColumnName="IssuerID" />
+          <ScalarProperty Name="Published" ColumnName="Published" />
+          <ScalarProperty Name="Added" ColumnName="Added" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OptionalFiles">
+      <EntityTypeMapping TypeName="neptuneModel1.OptionalFile">
+        <MappingFragment StoreEntitySet="OptionalFiles">
+          <ScalarProperty Name="C_Id" ColumnName="_Id" />
+          <ScalarProperty Name="C_Type" ColumnName="_Type" />
+          <ScalarProperty Name="C_Number" ColumnName="_Number" />
+          <ScalarProperty Name="C_NauProdID" ColumnName="_NauProdID" />
+          <ScalarProperty Name="C_Path" ColumnName="_Path" />
+          <ScalarProperty Name="C_Week" ColumnName="_Week" />
+          <ScalarProperty Name="C_Year" ColumnName="_Year" />
+          <ScalarProperty Name="C_Page" ColumnName="_Page" />
+          <ScalarProperty Name="C_Added" ColumnName="_Added" />
+          <ScalarProperty Name="C_Active" ColumnName="_Active" />
+          <ScalarProperty Name="C_IssuerID" ColumnName="_IssuerID" />
+          <ScalarProperty Name="C_EndPage" ColumnName="_EndPage" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="prefixtables">
+      <EntityTypeMapping TypeName="neptuneModel1.prefixtable">
+        <MappingFragment StoreEntitySet="prefixtable">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="C_Prefix" ColumnName="_Prefix" />
+          <ScalarProperty Name="C_IssuerPrefix" ColumnName="_IssuerPrefix" />
+          <ScalarProperty Name="C_Type" ColumnName="_Type" />
+          <ScalarProperty Name="C_Description" ColumnName="_Description" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="rssNews">
+      <EntityTypeMapping TypeName="neptuneModel1.rssNew">
+        <MappingFragment StoreEntitySet="rssNews">
+          <ScalarProperty Name="C_ID" ColumnName="_ID" />
+          <ScalarProperty Name="C_Publisher" ColumnName="_Publisher" />
+          <ScalarProperty Name="C_Category" ColumnName="_Category" />
+          <ScalarProperty Name="C_Region" ColumnName="_Region" />
+          <ScalarProperty Name="C_rssURL" ColumnName="_rssURL" />
+          <ScalarProperty Name="C_Content" ColumnName="_Content" />
+          <ScalarProperty Name="C_FeedFileName" ColumnName="_FeedFileName" />
+          <ScalarProperty Name="C_Updated" ColumnName="_Updated" />
+          <ScalarProperty Name="C_Added" ColumnName="_Added" />
+          <ScalarProperty Name="C_Active" ColumnName="_Active" />
+          <ScalarProperty Name="C_ActiveChanged" ColumnName="_ActiveChanged" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VesselPositionsHistories">
+      <EntityTypeMapping TypeName="neptuneModel1.VesselPositionsHistory">
+        <MappingFragment StoreEntitySet="VesselPositionsHistory">
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="Lon" ColumnName="Lon" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="TimestampUtc" ColumnName="TimestampUtc" />
+          <ScalarProperty Name="IsWithinCoverage" ColumnName="IsWithinCoverage" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="ProviderId" ColumnName="ProviderId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LastConfirmedUtc" ColumnName="LastConfirmedUtc" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="VesselPositionStatusId" ColumnName="VesselPositionStatusId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VesselPositionsHistory2013">
+      <EntityTypeMapping TypeName="neptuneModel1.VesselPositionsHistory2013">
+        <MappingFragment StoreEntitySet="VesselPositionsHistory2013">
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="Lon" ColumnName="Lon" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="TimestampUtc" ColumnName="TimestampUtc" />
+          <ScalarProperty Name="IsWithinCoverage" ColumnName="IsWithinCoverage" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="ProviderId" ColumnName="ProviderId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LastConfirmedUtc" ColumnName="LastConfirmedUtc" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="VesselPositionStatusId" ColumnName="VesselPositionStatusId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VesselPositionsHistory2014">
+      <EntityTypeMapping TypeName="neptuneModel1.VesselPositionsHistory2014">
+        <MappingFragment StoreEntitySet="VesselPositionsHistory2014">
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="Lon" ColumnName="Lon" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="TimestampUtc" ColumnName="TimestampUtc" />
+          <ScalarProperty Name="IsWithinCoverage" ColumnName="IsWithinCoverage" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="ProviderId" ColumnName="ProviderId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LastConfirmedUtc" ColumnName="LastConfirmedUtc" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="VesselPositionStatusId" ColumnName="VesselPositionStatusId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VesselPositionsHistory2015">
+      <EntityTypeMapping TypeName="neptuneModel1.VesselPositionsHistory2015">
+        <MappingFragment StoreEntitySet="VesselPositionsHistory2015">
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="Lon" ColumnName="Lon" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="TimestampUtc" ColumnName="TimestampUtc" />
+          <ScalarProperty Name="IsWithinCoverage" ColumnName="IsWithinCoverage" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="ProviderId" ColumnName="ProviderId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LastConfirmedUtc" ColumnName="LastConfirmedUtc" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="VesselPositionStatusId" ColumnName="VesselPositionStatusId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VesselPositionsHistory2016">
+      <EntityTypeMapping TypeName="neptuneModel1.VesselPositionsHistory2016">
+        <MappingFragment StoreEntitySet="VesselPositionsHistory2016">
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="Lon" ColumnName="Lon" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="TimestampUtc" ColumnName="TimestampUtc" />
+          <ScalarProperty Name="IsWithinCoverage" ColumnName="IsWithinCoverage" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="ProviderId" ColumnName="ProviderId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LastConfirmedUtc" ColumnName="LastConfirmedUtc" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="VesselPositionStatusId" ColumnName="VesselPositionStatusId" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="XmlNTMDatas">
+      <EntityTypeMapping TypeName="neptuneModel1.XmlNTMData">
+        <MappingFragment StoreEntitySet="XmlNTMData">
+          <ScalarProperty Name="C_Id" ColumnName="_Id" />
+          <ScalarProperty Name="C_PrimaryKey" ColumnName="_PrimaryKey" />
+          <ScalarProperty Name="C_PubDate" ColumnName="_PubDate" />
+          <ScalarProperty Name="C_IssuerID" ColumnName="_IssuerID" />
+          <ScalarProperty Name="C_Type" ColumnName="_Type" />
+          <ScalarProperty Name="C_Week" ColumnName="_Week" />
+          <ScalarProperty Name="C_NMNumber" ColumnName="_NMNumber" />
+          <ScalarProperty Name="C_Year" ColumnName="_Year" />
+          <ScalarProperty Name="C_ChartNumber" ColumnName="_ChartNumber" />
+          <ScalarProperty Name="C_areacode" ColumnName="_areacode" />
+          <ScalarProperty Name="C_region" ColumnName="_region" />
+          <ScalarProperty Name="C_sub_region" ColumnName="_sub_region" />
+          <ScalarProperty Name="C_vicinities" ColumnName="_vicinities" />
+          <ScalarProperty Name="C_feature_types" ColumnName="_feature_types" />
+          <ScalarProperty Name="C_light_list" ColumnName="_light_list" />
+          <ScalarProperty Name="C_authority" ColumnName="_authority" />
+          <ScalarProperty Name="C_note" ColumnName="_note" />
+          <ScalarProperty Name="C_Ident" ColumnName="_Ident" />
+          <ScalarProperty Name="C_FolioNumber" ColumnName="_FolioNumber" />
+          <ScalarProperty Name="C_LastUpdateNM" ColumnName="_LastUpdateNM" />
+          <ScalarProperty Name="C_LastUpdateDate" ColumnName="_LastUpdateDate" />
+          <ScalarProperty Name="C_XML" ColumnName="_XML" />
+          <ScalarProperty Name="C_GraphicsPath" ColumnName="_GraphicsPath" />
+          <ScalarProperty Name="C_LowresPath" ColumnName="_LowresPath" />
+          <ScalarProperty Name="C_SuperLowresPath" ColumnName="_SuperLowresPath" />
+          <ScalarProperty Name="C_NewEdition" ColumnName="_NewEdition" />
+          <ScalarProperty Name="C_Added" ColumnName="_Added" />
+          <ScalarProperty Name="C_Original" ColumnName="_Original" />
+          <ScalarProperty Name="C_radio_list" ColumnName="_radio_list" />
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
